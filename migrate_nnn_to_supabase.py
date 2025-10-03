@@ -54,54 +54,54 @@ def get_embedding(text: str, retries=5, backoff=2) -> List[float]:
                 raise e
 
 def make_embedding_text(entry: Dict[str, Any]) -> str:
-    """Create natural flowing text for better embeddings."""
+    """Create clean, pure content text for better embeddings."""
     sentences = []
     
     # Start with diagnosis and definition
-    diagnosis = entry.get("diagnosis", "").strip()
-    definition = entry.get("definition", "").strip()
+    diagnosis = entry.get("diagnosis", "").strip().lower()
+    definition = entry.get("definition", "").strip().lower()
     
     if diagnosis and definition:
-        sentences.append(f"{diagnosis.capitalize()}. {definition}")
+        sentences.append(f"{diagnosis}. {definition}")
     elif diagnosis:
-        sentences.append(diagnosis.capitalize())
+        sentences.append(diagnosis)
     
-    # Add characteristics
+    # Add characteristics (pure content)
     if entry.get("defining_characteristics") and isinstance(entry["defining_characteristics"], list):
-        characteristics = [char.strip() for char in entry["defining_characteristics"] 
-                         if char and char.strip() and char.strip() != "to be developed"]
+        characteristics = [char.strip().lower() for char in entry["defining_characteristics"] 
+                         if char and char.strip() and char.strip().lower() != "to be developed"]
         if characteristics:
-            sentences.append(f"Characteristics include {', '.join(characteristics)}")
+            sentences.append(", ".join(characteristics))
     
-    # Combine all factors
+    # Combine all factors (pure content)
     all_factors = []
     
     if entry.get("related_factors") and isinstance(entry["related_factors"], list):
-        related = [factor.strip() for factor in entry["related_factors"] 
-                  if factor and factor.strip() and factor.strip() != "to be developed"]
+        related = [factor.strip().lower() for factor in entry["related_factors"] 
+                  if factor and factor.strip() and factor.strip().lower() != "to be developed"]
         all_factors.extend(related)
     
     if entry.get("risk_factors") and isinstance(entry["risk_factors"], list):
-        risks = [factor.strip() for factor in entry["risk_factors"] 
-                if factor and factor.strip() and factor.strip() != "to be developed"]
+        risks = [factor.strip().lower() for factor in entry["risk_factors"] 
+                if factor and factor.strip() and factor.strip().lower() != "to be developed"]
         all_factors.extend(risks)
     
     if all_factors:
-        sentences.append(f"Related to {', '.join(all_factors)}")
+        sentences.append(", ".join(all_factors))
     
-    # Add conditions
+    # Add conditions (pure content)
     if entry.get("associated_conditions") and isinstance(entry["associated_conditions"], list):
-        conditions = [cond.strip() for cond in entry["associated_conditions"] 
-                     if cond and cond.strip() and cond.strip() != "to be developed"]
+        conditions = [cond.strip().lower() for cond in entry["associated_conditions"] 
+                     if cond and cond.strip() and cond.strip().lower() != "to be developed"]
         if conditions:
-            sentences.append(f"Associated with {', '.join(conditions)}")
+            sentences.append(", ".join(conditions))
     
-    # Add populations
+    # Add populations (pure content)
     if entry.get("at_risk_population") and isinstance(entry["at_risk_population"], list):
-        populations = [pop.strip() for pop in entry["at_risk_population"] 
-                      if pop and pop.strip() and pop.strip() != "to be developed"]
+        populations = [pop.strip().lower() for pop in entry["at_risk_population"] 
+                      if pop and pop.strip() and pop.strip().lower() != "to be developed"]
         if populations:
-            sentences.append(f"Common in {', '.join(populations)}")
+            sentences.append(", ".join(populations))
     
     return ". ".join(sentences) + "."
 
