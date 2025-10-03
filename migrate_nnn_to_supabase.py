@@ -54,36 +54,56 @@ def get_embedding(text: str, retries=5, backoff=2) -> List[float]:
                 raise e
 
 def make_embedding_text(entry: Dict[str, Any]) -> str:
-    """Create comprehensive text representation for embedding generation."""
-    parts = []
+    """Create natural flowing text for better embeddings."""
+    sentences = []
     
-    # Add diagnosis
-    if entry.get("diagnosis"):
-        parts.append(f"Diagnosis: {entry['diagnosis']}")
+    # Start with diagnosis and definition
+    diagnosis = entry.get("diagnosis", "").strip()
+    definition = entry.get("definition", "").strip()
     
-    # Add definition
-    if entry.get("definition"):
-        parts.append(f"Definition: {entry['definition']}")
+    if diagnosis and definition:
+        sentences.append(f"{diagnosis.capitalize()}. {definition}")
+    elif diagnosis:
+        sentences.append(diagnosis.capitalize())
     
-    # Add defining characteristics
+    # Add characteristics
     if entry.get("defining_characteristics") and isinstance(entry["defining_characteristics"], list):
-        characteristics = [char for char in entry["defining_characteristics"] if char and char != "to be developed"]
+        characteristics = [char.strip() for char in entry["defining_characteristics"] 
+                         if char and char.strip() and char.strip() != "to be developed"]
         if characteristics:
-            parts.append(f"Defining characteristics: {', '.join(characteristics)}")
+            sentences.append(f"Characteristics include {', '.join(characteristics)}")
     
-    # Add related factors
+    # Combine all factors
+    all_factors = []
+    
     if entry.get("related_factors") and isinstance(entry["related_factors"], list):
-        factors = [factor for factor in entry["related_factors"] if factor and factor != "to be developed"]
-        if factors:
-            parts.append(f"Related factors: {', '.join(factors)}")
+        related = [factor.strip() for factor in entry["related_factors"] 
+                  if factor and factor.strip() and factor.strip() != "to be developed"]
+        all_factors.extend(related)
     
-    # Add risk factors
     if entry.get("risk_factors") and isinstance(entry["risk_factors"], list):
-        risk_factors = [factor for factor in entry["risk_factors"] if factor and factor != "to be developed"]
-        if risk_factors:
-            parts.append(f"Risk factors: {', '.join(risk_factors)}")
+        risks = [factor.strip() for factor in entry["risk_factors"] 
+                if factor and factor.strip() and factor.strip() != "to be developed"]
+        all_factors.extend(risks)
     
-    return " | ".join(parts)
+    if all_factors:
+        sentences.append(f"Related to {', '.join(all_factors)}")
+    
+    # Add conditions
+    if entry.get("associated_conditions") and isinstance(entry["associated_conditions"], list):
+        conditions = [cond.strip() for cond in entry["associated_conditions"] 
+                     if cond and cond.strip() and cond.strip() != "to be developed"]
+        if conditions:
+            sentences.append(f"Associated with {', '.join(conditions)}")
+    
+    # Add populations
+    if entry.get("at_risk_population") and isinstance(entry["at_risk_population"], list):
+        populations = [pop.strip() for pop in entry["at_risk_population"] 
+                      if pop and pop.strip() and pop.strip() != "to be developed"]
+        if populations:
+            sentences.append(f"Common in {', '.join(populations)}")
+    
+    return ". ".join(sentences) + "."
 
 def check_existing_entry(diagnosis: str) -> bool:
     """Check if entry already exists in database to avoid duplicates."""
@@ -105,6 +125,8 @@ def insert_row(entry: Dict[str, Any], embedding: List[float], retries=5, backoff
                 "defining_characteristics": entry.get("defining_characteristics", []),
                 "related_factors": entry.get("related_factors", []),
                 "risk_factors": entry.get("risk_factors", []),
+                "at_risk_population": entry.get("at_risk_population", []),
+                "associated_conditions": entry.get("associated_conditions", []),
                 "suggested_outcomes": entry.get("suggested_outcomes", []),
                 "suggested_interventions": entry.get("suggested_interventions", []),
                 "embedding": embedding,
@@ -139,10 +161,11 @@ def create_table_if_not_exists():
         # Test if table exists by trying to select from it
         supabase.table("nnn_lookup").select("id").limit(1).execute()
         logger.info("Table 'nnn_lookup' already exists")
+        return True
     except Exception as e:
-        logger.warning(f"Table might not exist or have issues: {e}")
-        logger.info("Please ensure the 'nnn_lookup' table exists in Supabase with the following schema:")
-        logger.info("""
+        logger.info(f"Table doesn't exist, will need manual creation: {e}")
+        
+        create_sql = '''
         CREATE TABLE nnn_lookup (
             id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
             diagnosis TEXT NOT NULL,
@@ -150,6 +173,8 @@ def create_table_if_not_exists():
             defining_characteristics TEXT[],
             related_factors TEXT[],
             risk_factors TEXT[],
+            at_risk_population TEXT[],
+            associated_conditions TEXT[],
             suggested_outcomes TEXT[],
             suggested_interventions TEXT[],
             embedding VECTOR(768),
@@ -157,21 +182,41 @@ def create_table_if_not_exists():
             updated_at TIMESTAMPTZ DEFAULT NOW()
         );
         
+        -- Create indexes
         CREATE INDEX ON nnn_lookup USING ivfflat (embedding vector_cosine_ops);
-        """)
+        CREATE INDEX ON nnn_lookup USING GIN (at_risk_population);
+        CREATE INDEX ON nnn_lookup USING GIN (associated_conditions);
+        CREATE INDEX idx_nnn_lookup_diagnosis ON nnn_lookup (diagnosis);
+        '''
+        
+        logger.error("FAILED: Cannot create table automatically via script.")
+        logger.info("Please create the table manually in Supabase SQL editor:")
+        logger.info("="*60)
+        logger.info(create_sql)
+        logger.info("="*60)
+        logger.info("After creating the table, run this script again.")
+        return False
 
 def main():
     """Main migration function."""
     logger.info("Starting NNN content migration to Supabase...")
     
-    # Check table exists
-    create_table_if_not_exists()
+    # Create table if it doesn't exist
+    if not create_table_if_not_exists():
+        logger.error("FAILED: Table does not exist. Please create manually and run again.")
+        return
     
     # Load the normalized content
     try:
         with open("normalized_NNN_content.json", "r", encoding="utf-8") as f:
-            entries = json.load(f)
-        logger.info(f"Loaded {len(entries)} entries from normalized_NNN_content.json")
+            all_entries = json.load(f)
+        
+        # Filter out empty entries and entries without diagnosis
+        entries = [entry for entry in all_entries 
+                  if entry and entry.get("diagnosis") and entry.get("diagnosis").strip()]
+        
+        logger.info(f"Loaded {len(all_entries)} total entries, filtered to {len(entries)} valid entries")
+        
     except FileNotFoundError:
         logger.error("normalized_NNN_content.json not found!")
         return

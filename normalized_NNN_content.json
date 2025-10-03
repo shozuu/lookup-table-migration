@@ -26,6 +26,17 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with history of decreased activity tolerance",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "neoplasms",
+      "neurodegenerative diseases",
+      "respiration disorders",
+      "traumatic brain injuries",
+      "vitamin d deficiency"
+    ],
     "suggested_outcomes": [
       "activity tolerance",
       "endurance",
@@ -56,6 +67,17 @@
       "physical deconditioning",
       "sedentary lifestyle"
     ],
+    "at_risk_population": [
+      "individuals with history of decreased activity tolerance",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "neoplasms",
+      "neurodegenerative diseases",
+      "respiration disorders",
+      "traumatic brain injuries",
+      "vitamin d deficiency"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -80,6 +102,8 @@
       "unrealistic perception of personal abilities"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals with history of procrastination"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "cognition",
       "orientation",
@@ -113,6 +137,8 @@
       "unrealistic perception of event",
       "unrealistic perception of personal abilities"
     ],
+    "at_risk_population": ["individuals with history of procrastination"],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -152,6 +178,20 @@
       "smoking"
     ],
     "risk_factors": [],
+    "at_risk_population": ["children", "infants"],
+    "associated_conditions": [
+      "airway spasm",
+      "allergic airway",
+      "asthma",
+      "chronic obstructive pulmonary disease",
+      "congenital heart disease",
+      "critical illness",
+      "exudate in the alveoli",
+      "general anesthesia",
+      "hyperplasia of the bronchial walls",
+      "neuromuscular diseases",
+      "respiratory tract infection"
+    ],
     "suggested_outcomes": [
       "aspiration prevention",
       "respiratory status: airway patency, gas exchange, ventilation"
@@ -174,6 +214,12 @@
       "inadequate knowledge about avoidance of relevant allergens",
       "inattentive to potential allergen exposure"
     ],
+    "at_risk_population": [
+      "individuals with history of food allergy",
+      "individuals with history of insect sting allergy",
+      "individuals with repeated exposure to allergen-producing environmental substance"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "allergic response: systemic",
       "immune hypersensitivity response",
@@ -200,6 +246,15 @@
       "value conflict"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing developmental crisis",
+      "individuals experiencing situational crisis",
+      "individuals exposed to toxins",
+      "individuals in the perioperative period",
+      "individuals with family history of anxiety",
+      "individuals with hereditary predisposition"
+    ],
+    "associated_conditions": ["mental disorders"],
     "suggested_outcomes": [
       "anxiety level",
       "anxiety self-control",
@@ -257,6 +312,20 @@
       "unpleasant physical symptoms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing terminal care of significant others",
+      "individuals receiving terminal care",
+      "individuals with history of adverse experiences with death of significant others",
+      "individuals with history of near-death experience",
+      "older adults",
+      "women",
+      "young adults"
+    ],
+    "associated_conditions": [
+      "depression",
+      "stigmatized illnesses with high fear of death",
+      "terminal illness"
+    ],
     "suggested_outcomes": [
       "acceptance: health status",
       "anxiety self-control",
@@ -303,14 +372,37 @@
       "increased gastric residue",
       "ineffective airway clearance"
     ],
+    "at_risk_population": ["older adults", "premature infants"],
+    "associated_conditions": [
+      "chronic obstructive pulmonary disease",
+      "critical illness",
+      "decreased level of consciousness",
+      "delayed gastric emptying",
+      "depressed gag reflex",
+      "enteral nutrition",
+      "facial surgery",
+      "facial trauma",
+      "head and neck neoplasms",
+      "incompetent lower esophageal sphincter",
+      "increased intragastric pressure",
+      "jaw fixation techniques",
+      "medical devices",
+      "neck surgery",
+      "neck trauma",
+      "neurological diseases",
+      "oral surgical procedures",
+      "oral trauma",
+      "pharmaceutical preparations",
+      "pneumonia",
+      "stroke",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "aspiration prevention",
       "respiratory status: ventilation",
       "swallowing status"
     ],
-    "suggested_interventions": [
-      "aspiration precautions"
-    ]
+    "suggested_interventions": ["aspiration precautions"]
   },
   {
     "diagnosis": "risk for impaired attachment",
@@ -329,6 +421,8 @@
       "physical barrier",
       "substance misuse"
     ],
+    "at_risk_population": ["premature infants"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "parent-infant attachment",
       "parenting performance: psychosocial adjustment: life change"
@@ -367,14 +461,34 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals exposed to environmental temperature extremes",
+      "men with spinal cord injury or lesion who are experiencing ejaculation",
+      "women with spinal cord injury or lesion who are experiencing labor",
+      "women with spinal cord injury or lesion who are menstruating",
+      "women with spinal cord injury or lesion who are pregnant"
+    ],
+    "associated_conditions": [
+      "bowel fractures",
+      "detrusor sphincter dyssynergia",
+      "digestive system diseases",
+      "epididymitis",
+      "heterotopic bone",
+      "ovarian cyst",
+      "pharmaceutical preparations",
+      "renal calculi",
+      "substance withdrawal",
+      "surgical procedures",
+      "urinary catheterization",
+      "urinary tract infection",
+      "venous thromboembolism"
+    ],
     "suggested_outcomes": [
       "neurological status",
       "neurological status: autonomic",
       "vital signs"
     ],
-    "suggested_interventions": [
-      "dysreflexia management"
-    ]
+    "suggested_interventions": ["dysreflexia management"]
   },
   {
     "diagnosis": "risk for autonomic dysreflexia",
@@ -382,6 +496,28 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with spinal cord injury or lesion exposed to extremes of environmental temperature",
+      "men with spinal cord injury or lesion who are experiencing ejaculation",
+      "women with spinal cord injury or lesion who are experiencing labor",
+      "women with spinal cord injury or lesion who are menstruating",
+      "women with spinal cord injury or lesion who are pregnant"
+    ],
+    "associated_conditions": [
+      "bone fractures",
+      "detrusor sphincter dyssynergia",
+      "digestive system diseases",
+      "epididymitis",
+      "heterotopic bone",
+      "ovarian cyst",
+      "pharmaceutical preparations",
+      "renal calculi",
+      "substance withdrawal",
+      "surgical procedures",
+      "urinary catheterization",
+      "urinary tract infection",
+      "venous thromboembolism"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -390,8 +526,19 @@
     "definition": "susceptible to a decrease in blood volume, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "inadequate knowledge of bleeding precautions"
+    "risk_factors": ["inadequate knowledge of bleeding precautions"],
+    "at_risk_population": ["individuals with a history of falls"],
+    "associated_conditions": [
+      "aneurysm",
+      "circumcision",
+      "disseminated intravascular coagulopathy",
+      "gastrointestinal condition",
+      "impaired liver function",
+      "inherent coagulopathy",
+      "postpartum complication",
+      "pregnancy complication",
+      "trauma",
+      "treatment regimen"
     ],
     "suggested_outcomes": [
       "blood coagulation",
@@ -426,9 +573,23 @@
     "definition": "susceptible to fluctuating forces of blood flowing through arterial vessels, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "inconsistency with medication regimen",
-      "orthostasis"
+    "risk_factors": ["inconsistency with medication regimen", "orthostasis"],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "adverse effects of pharmaceutical preparations",
+      "adverse effects of cocaine",
+      "cardiac dysrhythmia",
+      "cushing's syndrome",
+      "fluid retention",
+      "fluid shifts",
+      "hormonal change",
+      "hyperparathyroidism",
+      "hyperthyroidism",
+      "hypothyroidism",
+      "increased intracranial pressure",
+      "pharmaceutical preparations",
+      "rapid absorption and distribution of pharmaceutical preparations",
+      "sympathetic responses"
     ],
     "suggested_outcomes": [
       "fatigue",
@@ -497,6 +658,27 @@
       "unrealistic self-expectations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "cancer survivors",
+      "individuals experiencing altered body weight",
+      "individuals experiencing developmental transition",
+      "individuals experiencing puberty",
+      "individuals with altered body function",
+      "individuals with scars",
+      "individuals with stomas",
+      "women"
+    ],
+    "associated_conditions": [
+      "binge-eating disorder",
+      "chronic pain",
+      "fibromyalgia",
+      "human immunodeficiency virus infections",
+      "impaired psychosocial functioning",
+      "mental disorders",
+      "surgical procedures",
+      "treatment regimen",
+      "wounds and injuries"
+    ],
     "suggested_outcomes": [
       "body image",
       "self-esteem",
@@ -543,6 +725,8 @@
       "maternal treatment regimen"
     ],
     "risk_factors": [],
+    "at_risk_population": ["women who become pregnant while breastfeeding"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "breastfeeding establishment: infant, maternal",
       "breastfeeding maintenance",
@@ -579,6 +763,13 @@
       "supplemental feedings with artificial nipple"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with history of breast surgery",
+      "individuals with history of breastfeeding failure",
+      "premature infants",
+      "women with short maternity leave"
+    ],
+    "associated_conditions": ["oropharyngeal defect"],
     "suggested_outcomes": [
       "breastfeeding establishment: infant/maternal",
       "breastfeeding maintenance",
@@ -594,14 +785,23 @@
   {
     "diagnosis": "interrupted breastfeeding",
     "definition": "break in the continuity of feeding milk from the breasts, which may compromise breastfeeding success and/ or nutritional status of the infant/child.",
-    "defining_characteristics": [
-      "nonexclusive breastfeeding"
-    ],
+    "defining_characteristics": ["nonexclusive breastfeeding"],
     "related_factors": [
       "abrupt weaning of infant",
       "maternal-infant separation"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "employed mothers",
+      "hospitalized children",
+      "hospitalized infants",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "contraindications to breastfeeding",
+      "infant illness",
+      "maternal illness"
+    ],
     "suggested_outcomes": [
       "breastfeeding maintenance",
       "knowledge: breastfeeding",
@@ -623,13 +823,13 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "breastfeeding establishment: infant, maternal",
       "breastfeeding maintenance"
     ],
-    "suggested_interventions": [
-      "lactation counseling"
-    ]
+    "suggested_interventions": ["lactation counseling"]
   },
   {
     "diagnosis": "ineffective breathing pattern",
@@ -668,41 +868,67 @@
       "pain"
     ],
     "risk_factors": [],
+    "at_risk_population": ["young women"],
+    "associated_conditions": [
+      "bony deformity",
+      "chest wall deformity",
+      "chronic obstructive pulmonary disease",
+      "critical illness",
+      "heart diseases",
+      "hyperventilation syndrome",
+      "hypoventilation syndrome",
+      "increased airway resistance",
+      "increased serum hydrogen concentration",
+      "musculoskeletal impairment",
+      "neurological immaturity",
+      "neurological impairment",
+      "neuromuscular diseases",
+      "reduced pulmonary complacency",
+      "sleep-apnea syndromes",
+      "spinal cord injuries"
+    ],
     "suggested_outcomes": [
       "respiratory status: airway patency, ventilation",
       "vital signs"
     ],
-    "suggested_interventions": [
-      "airway management",
-      "respiratory monitoring"
-    ]
+    "suggested_interventions": ["airway management", "respiratory monitoring"]
   },
   {
     "diagnosis": "decreased cardiac output",
     "definition": "inadequate volume of blood pumped by the heart to meet the metabolic demands of the body.",
     "defining_characteristics": [],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered afterload, altered contractility",
+      "altered heart rate",
+      "altered heart rhythm",
+      "altered preload",
+      "altered stroke volume"
+    ],
     "suggested_outcomes": [
       "cardiac pump effectiveness",
       "circulation status",
       "tissue perfusion: abdominal organs, peripheral",
       "vital signs"
     ],
-    "suggested_interventions": [
-      "cardiac care",
-      "cardiac care: acute"
-    ]
+    "suggested_interventions": ["cardiac care", "cardiac care: acute"]
   },
   {
     "diagnosis": "risk for decreased cardiac output",
     "definition": "susceptible to inadequate blood pumped by the heart to meet metabolic demands of the body, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
+    "risk_factors": ["to be developed"],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered afterload",
+      "altered contractility",
+      "altered heart rate",
+      "altered heart rhythm",
+      "altered preload",
+      "altered stroke volume"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -715,6 +941,22 @@
     "risk_factors": [
       "inadequate knowledge of modifiable factors",
       "substance misuse"
+    ],
+    "at_risk_population": [
+      "individuals with a family history of cardiovascular disease"
+    ],
+    "associated_conditions": [
+      "cardiac tamponade",
+      "cardiovascular surgery",
+      "coronary artery spasm",
+      "diabetes mellitus",
+      "elevated c-reactive protein",
+      "hyperlipidemia",
+      "hypertension",
+      "hypovolemia",
+      "hypoxemia",
+      "hypoxia",
+      "pharmaceutical preparations"
     ],
     "suggested_outcomes": [
       "cardiac pump effectiveness",
@@ -753,6 +995,26 @@
       "smoking",
       "substance misuse"
     ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals with family history of diabetes mellitus",
+      "individuals with family history of dyslipidemia",
+      "individuals with family history of hypertension",
+      "individuals with family history of metabolic syndrome",
+      "individuals with family history of obesity",
+      "individuals with history of cardiovascular event",
+      "men",
+      "older adults",
+      "postmenopausal women"
+    ],
+    "associated_conditions": [
+      "depression",
+      "diabetes mellitus",
+      "dyslipidemia",
+      "hypertension",
+      "insulin resistance",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -762,6 +1024,15 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "care receiver with developmental disabilities",
+      "caregiver delivering care to partner",
+      "caregiver with developmental disabilities",
+      "female caregiver",
+      "individuals delivering care to infants born prematurely",
+      "individuals experiencing financial crisis"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "caregiver adaptation to patient institutionalization",
       "caregiver emotional health",
@@ -777,9 +1048,7 @@
       "family resiliency",
       "family coping"
     ],
-    "suggested_interventions": [
-      "caregiver support"
-    ]
+    "suggested_interventions": ["caregiver support"]
   },
   {
     "diagnosis": "risk for caregiver role strain",
@@ -787,6 +1056,16 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "care receiver with developmental disabilities",
+      "care receiver's condition inhibits conversation",
+      "caregiver delivering care to partner",
+      "caregiver with developmental disabilities",
+      "female caregiver",
+      "individuals delivering care to infants born prematurely",
+      "individuals experiencing financial crisis"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -795,8 +1074,33 @@
     "definition": "susceptible to a decrease in cerebral tissue circulation, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "substance misuse"
+    "risk_factors": ["substance misuse"],
+    "at_risk_population": [
+      "individuals with history of recent myocardial infarction"
+    ],
+    "associated_conditions": [
+      "abnormal serum partial thromboplastin time",
+      "abnormal serum prothrombin time",
+      "akinetic left ventricular wall segment",
+      "atherosclerosis",
+      "atrial fibrillation",
+      "atrial myxoma",
+      "brain injuries",
+      "brain neoplasm",
+      "carotid stenosis",
+      "cerebral aneurysm",
+      "coagulopathy",
+      "dilated cardiomyopathy",
+      "disseminated intravascular coagulopathy",
+      "embolism",
+      "hypercholesterolemia",
+      "hypertension",
+      "infective endocarditis",
+      "mechanical prosthetic valve",
+      "mitral stenosis",
+      "pharmaceutical preparations",
+      "sick sinus syndrome",
+      "treatment regimen"
     ],
     "suggested_outcomes": [
       "acute confusion level",
@@ -838,6 +1142,11 @@
       "unsafe environment"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing unplanned pregnancy",
+      "individuals experiencing unwanted pregnancy"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "fetal status: antepartum, intrapartum",
       "maternal status: antepartum, intrapartum",
@@ -860,6 +1169,8 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "knowledge: pregnancy",
       "knowledge: infant care",
@@ -897,6 +1208,11 @@
       "unrealistic birth plan",
       "unsafe environment"
     ],
+    "at_risk_population": [
+      "individuals experiencing unplanned pregnancy",
+      "individuals experiencing unwanted pregnancy"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -923,6 +1239,8 @@
       "unpleasant environmental stimuli"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": ["illness-related symptoms", "treatment regimen"],
     "suggested_outcomes": [
       "client satisfaction",
       "symptom control",
@@ -961,6 +1279,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "client satisfaction: caring",
       "symptom control",
@@ -996,11 +1316,11 @@
   {
     "diagnosis": "readiness for enhanced communication",
     "definition": "a pattern of exchanging information and ideas with others, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance communication"
-    ],
+    "defining_characteristics": ["expresses desire to enhance communication"],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "communication",
       "communication: expressive, receptive"
@@ -1056,6 +1376,32 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals facing physical barriers",
+      "individuals in the early postoperative period",
+      "individuals unable to verbalize",
+      "individuals with communication barriers",
+      "individuals without a significant other"
+    ],
+    "associated_conditions": [
+      "altered perception, developmental disabilities",
+      "flaccid facial paralysis",
+      "hemifacial spasm",
+      "motor neuron disease",
+      "neoplasms",
+      "neurocognitive disorders",
+      "oropharyngeal defect",
+      "peripheral nervous system diseases",
+      "psychotic disorders",
+      "respiratory muscle weakness",
+      "sialorrhea",
+      "speech disorders",
+      "tongue diseases",
+      "tracheostomy",
+      "treatment regimen",
+      "velopharyngeal insufficiency",
+      "vocal cord dysfunction"
+    ],
     "suggested_outcomes": [
       "communication",
       "communication: expressive, receptive"
@@ -1091,15 +1437,20 @@
       "urinary retention"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "decreased level of consciousness",
+      "impaired metabolism",
+      "infections",
+      "neurocognitive disorders",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [
       "improved cognitive function",
       "improved sensory perception",
       "improved thought processes"
     ],
-    "suggested_interventions": [
-      "delirium management",
-      "delusion management"
-    ]
+    "suggested_interventions": ["delirium management", "delusion management"]
   },
   {
     "diagnosis": "chronic confusion",
@@ -1122,6 +1473,13 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "human immunodeficiency virus infections",
+      "mental disorders",
+      "neurocognitive disorders",
+      "stroke"
+    ],
     "suggested_outcomes": [
       "cognition",
       "cognitive orientation",
@@ -1153,6 +1511,14 @@
       "sensory deprivation",
       "substance misuse",
       "urinary retention"
+    ],
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "decreased level of consciousness",
+      "impaired metabolism",
+      "infections",
+      "neurocognitive disorders",
+      "pharmaceutical preparations"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -1186,13 +1552,34 @@
       "substance misuse"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "bowel elimination",
-      "hydration"
+    "at_risk_population": [
+      "individuals admitted to hospital",
+      "individuals experiencing prolonged hospitalization",
+      "individuals in aged care settings",
+      "individuals in the early postoperative period",
+      "older adults",
+      "pregnant women",
+      "women"
     ],
-    "suggested_interventions": [
-      "constipation/impaction management"
-    ]
+    "associated_conditions": [
+      "blockage in the colon",
+      "blockage in the rectum",
+      "depression",
+      "developmental disabilities",
+      "digestive system diseases",
+      "endocrine diseases",
+      "heart diseases",
+      "mental disorders",
+      "muscular diseases",
+      "nervous system diseases",
+      "neurocognitive disorders",
+      "pelvic floor disorders",
+      "pharmaceutical preparations",
+      "radiotherapy",
+      "urogynecological disorders"
+    ],
+    "suggested_outcomes": ["bowel elimination", "hydration"],
+    "suggested_interventions": ["constipation/impaction management"]
   },
   {
     "diagnosis": "risk for constipation",
@@ -1214,6 +1601,32 @@
       "stressors",
       "substance misuse"
     ],
+    "at_risk_population": [
+      "individuals admitted to hospital",
+      "individuals experiencing prolonged hospitalization",
+      "individuals in aged care settings",
+      "individuals in the early postoperative period",
+      "older adults",
+      "pregnant women",
+      "women"
+    ],
+    "associated_conditions": [
+      "blockage in the colon",
+      "blockage in the rectum",
+      "depression",
+      "developmental disabilities",
+      "digestive system diseases",
+      "endocrine system diseases",
+      "heart diseases",
+      "mental disorders",
+      "muscular diseases",
+      "nervous system diseases",
+      "neurocognitive disorders",
+      "pelvic floor disorders",
+      "pharmaceutical preparations",
+      "radiotherapy",
+      "urogynecological disorders"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -1233,15 +1646,14 @@
       "family health beliefs"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "bowel elimination",
       "health beliefs",
       "health beliefs: perceived threat"
     ],
-    "suggested_interventions": [
-      "bowel management",
-      "medication management"
-    ]
+    "suggested_interventions": ["bowel management", "medication management"]
   },
   {
     "diagnosis": "chronic functional constipation",
@@ -1263,13 +1675,46 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "bowel elimination",
-      "symptom severity"
+    "at_risk_population": ["older adults", "pregnant women"],
+    "associated_conditions": [
+      "amyloidosis",
+      "anal fissure",
+      "anal stricture",
+      "autonomic neuropathy",
+      "chronic intestinal pseudo-obstruction",
+      "chronic renal insufficiency",
+      "colorectal cancer",
+      "depression",
+      "dermatomyositis",
+      "diabetes mellitus",
+      "extra intestinal mass",
+      "hemorrhoids",
+      "hirschsprung's disease",
+      "hypercalcemia",
+      "hypothyroidism",
+      "inflammatory bowel disease",
+      "ischemic stenosis",
+      "multiple sclerosis",
+      "myotonic dystrophy",
+      "neurocognitive disorders",
+      "panhypopituitarism",
+      "paraplegia",
+      "parkinson's disease",
+      "pelvic floor disorders",
+      "perineal damage",
+      "pharmaceutical preparations",
+      "polypharmacy",
+      "porphyria",
+      "postinflammatory stenosis",
+      "proctitis",
+      "scleroderma",
+      "slow colon transit time",
+      "spinal cord injuries",
+      "stroke",
+      "surgical stenosis"
     ],
-    "suggested_interventions": [
-      "constipation/impaction management"
-    ]
+    "suggested_outcomes": ["bowel elimination", "symptom severity"],
+    "suggested_interventions": ["constipation/impaction management"]
   },
   {
     "diagnosis": "risk for chronic functional constipation",
@@ -1291,6 +1736,44 @@
       "low caloric intake",
       "sedentary lifestyle"
     ],
+    "at_risk_population": ["older adults", "pregnant women"],
+    "associated_conditions": [
+      "amyloidosis",
+      "anal fissure",
+      "anal stricture",
+      "autonomic neuropathy",
+      "chronic intestinal pseudo-obstruction",
+      "chronic renal insufficiency",
+      "colorectal cancer",
+      "depression",
+      "dermatomyositis",
+      "diabetes mellitus",
+      "extra intestinal mass",
+      "hemorrhoids",
+      "hirschsprung's disease",
+      "hypercalcemia",
+      "hypothyroidism",
+      "inflammatory bowel disease",
+      "ischemic stenosis",
+      "multiple sclerosis",
+      "myotonic dystrophy",
+      "neurocognitive disorders",
+      "panhypopituitarism",
+      "paraplegia",
+      "parkinson's disease",
+      "pelvic floor disorders",
+      "perineal damage",
+      "pharmaceutical preparations",
+      "polypharmacy",
+      "porphyria",
+      "postinflammatory stenosis",
+      "proctitis",
+      "scleroderma",
+      "slow colon transit time",
+      "spinal cord injuries",
+      "stroke",
+      "surgical stenosis"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -1300,6 +1783,20 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children aged <5 years",
+      "economically disadvantaged individuals",
+      "individuals exposed perinatally",
+      "individuals exposed to areas with high concomitant level",
+      "individuals exposed to atmospheric pollutants",
+      "individuals exposed to bioterrorism",
+      "individuals exposed to disaster",
+      "individuals with history of exposure to contaminant",
+      "older adults",
+      "pregnant women",
+      "women"
+    ],
+    "associated_conditions": ["pre-existing disease", "radiotherapy"],
     "suggested_outcomes": [
       "community health status",
       "family physical environment",
@@ -1320,6 +1817,20 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children aged <5 years",
+      "economically disadvantaged individuals",
+      "individuals exposed perinatally",
+      "individuals exposed to areas with high contaminant level",
+      "individuals exposed to atmospheric pollutants",
+      "individuals exposed to bioterrorism",
+      "individuals exposed to disaster",
+      "individuals with history of exposure to contaminant",
+      "older adults",
+      "pregnant women",
+      "women"
+    ],
+    "associated_conditions": ["pre-existing disease", "radiotherapy"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -1356,10 +1867,24 @@
       "stressors"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "bowel continence",
-      "bowel elimination"
+    "at_risk_population": [
+      "older adults",
+      "women giving birth vaginally",
+      "women giving birth with obstetrical extraction"
     ],
+    "associated_conditions": [
+      "anal trauma",
+      "congenital abnormalities of the digestive system",
+      "diabetes mellitus",
+      "neurocognitive disorders",
+      "neurological diseases",
+      "physical inactivity",
+      "prostatic diseases",
+      "rectum trauma",
+      "spinal cord injuries",
+      "stroke"
+    ],
+    "suggested_outcomes": ["bowel continence", "bowel elimination"],
     "suggested_interventions": [
       "bowel incontinence care",
       "bowel incontinence care: encopresis",
@@ -1371,14 +1896,19 @@
     "definition": "susceptible to noxious or unintended reaction that can occur within seven days after contrast agent injection, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "dehydration",
-      "generalized weakness"
+    "risk_factors": ["dehydration", "generalized weakness"],
+    "at_risk_population": [
+      "individuals at extremes of age",
+      "individuals with history of adverse effect from iodinated contrast media",
+      "individuals with a history of allergy"
     ],
-    "suggested_outcomes": [
-      "tissue perfusion: renal",
-      "kidney function"
+    "associated_conditions": [
+      "chronic disease",
+      "concurrent use of pharmaceutical preparations",
+      "decreased level of consciousness",
+      "individuals with fragile veins"
     ],
+    "suggested_outcomes": ["tissue perfusion: renal", "kidney function"],
     "suggested_interventions": [
       "fluid/electrolyte management",
       "laboratory data interpretation"
@@ -1399,10 +1929,9 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "community competence",
-      "community health status"
-    ],
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["community competence", "community health status"],
     "suggested_interventions": [
       "environmental management: community",
       "health policy monitoring: program development"
@@ -1443,6 +1972,8 @@
       "unrealistic self-expectations"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "coping",
       "decision-making",
@@ -1498,16 +2029,18 @@
       "ineffective tension release strategies"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing maturational crisis",
+      "individuals experiencing situational crisis"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "coping",
       "decision-making",
       "impulse self-control",
       "information processing"
     ],
-    "suggested_interventions": [
-      "coping enhancement",
-      "decision-making support"
-    ]
+    "suggested_interventions": ["coping enhancement", "decision-making support"]
   },
   {
     "diagnosis": "readiness for enhanced coping",
@@ -1522,6 +2055,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "coping",
       "personal well-being",
@@ -1553,6 +2088,8 @@
       "nonexistent community systems"
     ],
     "risk_factors": [],
+    "at_risk_population": ["community that has experienced a disaster"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "community competence",
       "community health status",
@@ -1588,6 +2125,13 @@
       "preoccupation by support person with concern outside of family"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "families with member with altered family role",
+      "families with support person experiencing depleted capacity due to prolonged disease",
+      "families with support persons experiencing developmental crisis",
+      "families with support persons experiencing situational crisis"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "caregiver emotional health",
       "caregiver-client relationship",
@@ -1637,6 +2181,8 @@
       "differing coping styles between support persons"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "caregiver well-being",
       "family coping",
@@ -1663,6 +2209,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "family coping",
       "health-seeking behavior",
@@ -1691,6 +2239,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "decision-making",
       "participation in health care decisions",
@@ -1735,15 +2285,15 @@
       "unclear personal values"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "decision-making",
       "information processing",
       "participation in health care decisions",
       "personal autonomy"
     ],
-    "suggested_interventions": [
-      "decision-making support"
-    ]
+    "suggested_interventions": ["decision-making support"]
   },
   {
     "diagnosis": "risk for elopement attempt",
@@ -1766,13 +2316,28 @@
       "self-harm intent",
       "substance misuse"
     ],
-    "suggested_outcomes": [
-      "elopement propensity risk",
-      "elopement occurrence"
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "homeless individuals",
+      "individuals brought to designated area against own wishes",
+      "individuals frequently requesting discharge",
+      "individuals hospitalized <three weeks",
+      "individuals with history of elopement",
+      "individuals with history of non-adherence to treatment regimen",
+      "individuals with history of self-harm",
+      "individuals with impaired judgment",
+      "men",
+      "older adults with cognitive disorders",
+      "unemployed individuals",
+      "young adults"
     ],
-    "suggested_interventions": [
-      "elopement precautions"
-    ]
+    "associated_conditions": [
+      "autism spectrum disorder",
+      "developmental disabilities",
+      "mental disorders"
+    ],
+    "suggested_outcomes": ["elopement propensity risk", "elopement occurrence"],
+    "suggested_interventions": ["elopement precautions"]
   },
   {
     "diagnosis": "impaired emancipated decision-making",
@@ -1797,6 +2362,12 @@
       "insufficient time to discuss health care options"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with limited decision making experience",
+      "women accessing health care from systems with patriarchal hierarchy",
+      "women living in families with patriarchal hierarch"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "decision-making",
       "self-esteem",
@@ -1833,6 +2404,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "decision-making",
       "self-esteem",
@@ -1846,9 +2419,7 @@
       "knowledge: treatment options",
       "psychosocial adjustment"
     ],
-    "suggested_interventions": [
-      "decision-making support"
-    ]
+    "suggested_interventions": ["decision-making support"]
   },
   {
     "diagnosis": "risk for impaired emancipated decision-making",
@@ -1864,6 +2435,12 @@
       "inadequate self-confidence in decision-making",
       "insufficient time to discuss health care options"
     ],
+    "at_risk_population": [
+      "individuals with limited decision making experience",
+      "women accessing health care from systems with patriarchal hierarchy",
+      "women living in families with patriarchal hierarchy"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "decision-making",
       "self-confidence",
@@ -1878,10 +2455,7 @@
       "treatment options",
       "psychosocial adjustment"
     ],
-    "suggested_interventions": [
-      "establish rapport",
-      "decision-making support"
-    ]
+    "suggested_interventions": ["establish rapport", "decision-making support"]
   },
   {
     "diagnosis": "readiness for enhanced exercise engagement",
@@ -1903,6 +2477,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "exercise participation",
       "physical fitness",
@@ -1947,15 +2523,15 @@
       "threat of unpleasant reality"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "acceptance: health status",
       "anxiety self-control",
       "health beliefs: perceived threat",
       "symptom control"
     ],
-    "suggested_interventions": [
-      "anxiety reduction"
-    ]
+    "suggested_interventions": ["anxiety reduction"]
   },
   {
     "diagnosis": "impaired dentition",
@@ -1991,9 +2567,17 @@
       "malnutrition"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "oral health"
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals with genetic predisposition to dental disorders"
     ],
+    "associated_conditions": [
+      "bruxism",
+      "chronic vomiting",
+      "oral temperature sensitivity",
+      "pharmaceutical preparations"
+    ],
+    "suggested_outcomes": ["oral health"],
     "suggested_interventions": [
       "oral health maintenance",
       "oral health promotion",
@@ -2011,6 +2595,28 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children aged 0-9 years",
+      "children born to economically disadvantaged families",
+      "children exposed to community violence",
+      "children exposed to environmental pollutants",
+      "children whose caregivers have developmental disabilities",
+      "children whose mothers had inadequate prenatal care",
+      "children with below normal growth standards for age and gender",
+      "institutionalized children",
+      "low birth weight infants",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "antenatal pharmaceutical preparations",
+      "congenital disorders",
+      "depression",
+      "inborn genetic diseases",
+      "maternal mental disorders",
+      "maternal physical illnesses",
+      "prenatal substance misuse",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [
       "abuse recovery",
       "child development: 1 month, 2 months, 4 months, 6 months, 12 months, 2 years, 3 years, 4 years, 5 years, middle childhood, adolescence",
@@ -2048,6 +2654,28 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children aged 0-9 years",
+      "children born to economically disadvantaged families",
+      "children exposed to community violence",
+      "children exposed to environmental pollutants",
+      "children whose caregivers have developmental disabilities",
+      "children whose mothers had inadequate prenatal care",
+      "children with below normal growth standards for age and gender",
+      "institutionalized children",
+      "low birth weight infants",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "antenatal pharmaceutical preparations",
+      "congenital disorders",
+      "depression",
+      "inborn genetic diseases",
+      "maternal mental disorders",
+      "maternal physical illnesses",
+      "prenatal substance misuse",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -2070,6 +2698,33 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "boys",
+      "infants aged 0-12 months",
+      "infants born to economically disadvantaged families",
+      "infants born to large families",
+      "infants born to parents with low educational levels",
+      "infants in intensive care units",
+      "infants living in home with inadequate physical space",
+      "infants whose mothers had inadequate antenatal diet",
+      "infants with below normal growth standards for age and gender",
+      "low birth weight infants",
+      "premature infants",
+      "premature infants who do not receive physiotherapy during hospitalization"
+    ],
+    "associated_conditions": [
+      "5 minute appearance, pulse, grimace, activity, & respiration (apgar) score < 7",
+      "antenatal pharmaceutical preparations",
+      "complex medical conditions",
+      "failure to thrive",
+      "maternal anemia in late pregnancy",
+      "maternal mental health disorders in early pregnancy",
+      "maternal prepregnancy obesity",
+      "neonatal abstinence syndrome",
+      "neurodevelopmental disorders",
+      "postnatal infection of preterm infant",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [
       "abuse recovery",
       "child development: 1 month, 2 months, 4 months, 6 months, 12 months",
@@ -2104,6 +2759,33 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "boys",
+      "infants aged 0-12 months",
+      "infants born to economically disadvantaged families",
+      "infants born to large families",
+      "infants born to parents with low educational levels",
+      "infants in intensive care units",
+      "infants living in home with inadequate physical space",
+      "infants whose mothers had inadequate antenatal diet",
+      "infants with below normal growth standards for age and gender",
+      "low birth weight infants",
+      "premature infants",
+      "premature infants who do not receive physiotherapy during hospitalization"
+    ],
+    "associated_conditions": [
+      "5 minute appearance, pulse, grimace, activity, & respiration (apgar) score < 7",
+      "antenatal pharmaceutical preparations",
+      "complex medical conditions",
+      "failure to thrive",
+      "maternal anemia in late pregnancy",
+      "maternal mental health disorders in early pregnancy",
+      "maternal prepregnancy obesity",
+      "neonatal abstinence syndrome",
+      "neurodevelopmental disorders",
+      "postnatal infection of preterm infant",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -2132,6 +2814,21 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "frequent travelers",
+      "individuals at extremes of age",
+      "individuals exposed to toxins"
+    ],
+    "associated_conditions": [
+      "critical illness",
+      "endocrine system diseases",
+      "enteral nutrition",
+      "gastrointestinal diseases",
+      "immunosuppression",
+      "infections",
+      "pharmaceutical preparations",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "bowel elimination",
       "electrolyte and acid-base balance",
@@ -2140,17 +2837,20 @@
       "risk control: environmental hazards",
       "community risk control: communicable disease"
     ],
-    "suggested_interventions": [
-      "diarrhea management"
-    ]
+    "suggested_interventions": ["diarrhea management"]
   },
   {
     "diagnosis": "risk for disuse syndrome",
     "definition": "susceptible to deterioration of body systems as the result of prescribed or unavoidable musculoskeletal inactivity, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "pain"
+    "risk_factors": ["pain"],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "decreased level of consciousness",
+      "immobilization",
+      "paralysis",
+      "prescribed movement restrictions"
     ],
     "suggested_outcomes": [
       "pain level",
@@ -2190,6 +2890,15 @@
       "psychological distress"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals at extremes of age",
+      "individuals experiencing prolonged hospitalization",
+      "individuals experiencing prolonged institutionalization"
+    ],
+    "associated_conditions": [
+      "prescribed movement restrictions",
+      "therapeutic isolation"
+    ],
     "suggested_outcomes": [
       "leisure participation",
       "play participation",
@@ -2234,6 +2943,15 @@
       "unaddressed abuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "depression",
+      "parental psychiatric disorder",
+      "physical challenge with eating",
+      "physical challenge with feeding",
+      "physical health issue of parent",
+      "psychological health issue of parent"
+    ],
     "suggested_outcomes": [
       "nutritional status",
       "nutritional status: food and fluid intake",
@@ -2266,6 +2984,21 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children born to economically disadvantaged families",
+      "children experiencing homelessness",
+      "children experiencing life transition",
+      "children living in foster care",
+      "children whose parents are obese"
+    ],
+    "associated_conditions": [
+      "depression",
+      "parental psychiatric disorder",
+      "physical challenge with eating",
+      "physical challenge with feeding",
+      "physical health issue of parent",
+      "psychological health issue of parent"
+    ],
     "suggested_outcomes": [
       "appetite",
       "parenting performance",
@@ -2290,6 +3023,13 @@
       "inadequate knowledge of modifiable factors",
       "insufficient fluid volume",
       "vomiting"
+    ],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "compromised regulatory mechanism",
+      "endocrine regulatory dysfunction",
+      "renal dysfunction",
+      "treatment regimen"
     ],
     "suggested_outcomes": [
       "electrolyte and acid-base balance",
@@ -2338,6 +3078,16 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "brain injuries",
+      "functional impairment",
+      "mental disorders",
+      "mood disorders",
+      "musculoskeletal impairment",
+      "pharmaceutical preparations",
+      "physical disability"
+    ],
     "suggested_outcomes": [
       "coping",
       "knowledge: disease process",
@@ -2391,6 +3141,11 @@
       "pain"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing life transition",
+      "individuals experiencing personal crisis"
+    ],
+    "associated_conditions": ["impaired health status", "injury"],
     "suggested_outcomes": [
       "personal well-being, personal health status",
       "psychomotor energy",
@@ -2432,6 +3187,34 @@
       "unrealistic perception of susceptibility to sequelae",
       "unrealistic perception of treatment benefit"
     ],
+    "at_risk_population": [
+      "children",
+      "economically disadvantaged individuals",
+      "individuals experiencing prolonged hospitalization",
+      "individuals with history of ineffective health self-management",
+      "individuals with limited decision-making experience",
+      "individuals with low educational level",
+      "older adults",
+      "women experiencing menopause"
+    ],
+    "associated_conditions": [
+      "allergies",
+      "autoimmune diseases",
+      "chemotherapy",
+      "developmental disabilities",
+      "graft versus host disease",
+      "incomplete eyelid closure",
+      "leukocytosis",
+      "metabolic diseases",
+      "neurological injury with motor reflex loss",
+      "neurological injury with sensory reflex loss",
+      "oxygen therapy",
+      "pharmaceutical preparations",
+      "proptosis",
+      "radiotherapy",
+      "reduced tear volume",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [
       "dry eye severity",
       "sensory function: vision",
@@ -2466,6 +3249,32 @@
       "use of products with benzalkonium chloride preservatives",
       "vitamin a deficiency"
     ],
+    "at_risk_population": [
+      "contact lens wearer",
+      "individuals experiencing prolonged intensive care unit stay",
+      "individuals with history of allergy",
+      "older adults",
+      "women"
+    ],
+    "associated_conditions": [
+      "artificial respiration",
+      "autoimmune disease",
+      "chemotherapy",
+      "decreased blinking",
+      "decreased level of consciousness",
+      "hormonal change",
+      "incomplete eyelid closure",
+      "leukocytosis",
+      "metabolic diseases",
+      "neurological injury with sensory or motor reflex loss",
+      "neuromuscular blockade",
+      "oxygen therapy",
+      "pharmaceutical preparations",
+      "proptosis",
+      "radiotherapy",
+      "reduced tear volume",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -2475,6 +3284,25 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals aged"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "assistive devices for walking",
+      "depression",
+      "endocrine system diseases",
+      "lower limb prosthesis",
+      "major injury",
+      "mental disorders",
+      "musculoskeletal diseases",
+      "neurocognitive disorders",
+      "orthostatic hypotension",
+      "pharmaceutical preparations",
+      "sensation disorders",
+      "vascular disease"
+    ],
     "suggested_outcomes": [
       "fall prevention behavior",
       "knowledge: fall prevention",
@@ -2493,16 +3321,35 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "boys",
+      "children <12 years of age",
+      "children born to economically disadvantaged families",
+      "children experiencing prolonged prescribed fasting period",
+      "children exposed to overcrowded environment",
+      "children in the labor force",
+      "children whose caregivers have low educational level",
+      "children whose caregivers have mental health issues",
+      "children with history of falls",
+      "children with stressed caregivers",
+      "children with young caregivers",
+      "children within the first week of hospitalization"
+    ],
+    "associated_conditions": [
+      "assistive devices for walking",
+      "feeding and eating disorders",
+      "musculoskeletal diseases",
+      "neurocognitive disorders",
+      "pharmaceutical preparations",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [
       "fall prevention behavior",
       "knowledge: child physical safety",
       "knowledge: fall prevention",
       "risk control: falls"
     ],
-    "suggested_interventions": [
-      "fall prevention",
-      "surveillance: safety"
-    ]
+    "suggested_interventions": ["fall prevention", "surveillance: safety"]
   },
   {
     "diagnosis": "dysfunctional family processes",
@@ -2515,6 +3362,18 @@
       "perceived vulnerability"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged families",
+      "families with history of resistance to treatment regimen",
+      "families with member with history of substance misuse",
+      "families with members with genetic predisposition to substance misuse"
+    ],
+    "associated_conditions": [
+      "depression",
+      "developmental disabilities",
+      "intimacy dysfunction",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [
       "family coping",
       "family functioning",
@@ -2555,6 +3414,14 @@
       "difficulty dealing with power shift among family members"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "families with altered finances",
+      "families with altered social status",
+      "families with member experiencing developmental crisis",
+      "families with member experiencing developmental transition",
+      "families with member experiencing situational transition"
+    ],
+    "associated_conditions": ["altered health status"],
     "suggested_outcomes": [
       "family coping",
       "family functioning",
@@ -2585,6 +3452,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "family coping",
       "health-promoting behavior",
@@ -2646,6 +3515,25 @@
       "stressors"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals exposed to negative life event",
+      "individuals with demanding occupation",
+      "pregnant women",
+      "women experiencing labor"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "chemotherapy",
+      "chronic disease",
+      "chronic inflammation",
+      "dementia",
+      "fibromyalgia",
+      "hypothalamus-pituitary-adrenal axis dysregulation",
+      "myasthenia gravis",
+      "neoplasms",
+      "radiotherapy",
+      "stroke"
+    ],
     "suggested_outcomes": [
       "concentration",
       "endurance",
@@ -2665,9 +3553,22 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "fear self-control"
+    "at_risk_population": [
+      "children",
+      "individuals exposed to traumatic situation",
+      "individuals living in areas with increased violence",
+      "individuals receiving terminal care",
+      "individuals separated from social support",
+      "individuals undergoing surgical procedure",
+      "individuals with family",
+      "individuals with history of falls",
+      "older adults",
+      "pregnant women",
+      "women",
+      "women experiencing childbirth"
     ],
+    "associated_conditions": ["sensation disorders"],
+    "suggested_outcomes": ["fear self-control"],
     "suggested_interventions": [
       "anxiety reduction",
       "coping enhancement",
@@ -2700,6 +3601,33 @@
       "uninvolved parenting"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "abandoned infants",
+      "infants born to economically disadvantaged families",
+      "infants experiencing homelessness",
+      "infants experiencing life transition",
+      "infants experiencing prolonged hospitalization",
+      "infants living in foster care",
+      "infants who are small for gestational age",
+      "infants with history of hospitalization in neonatal intensive care",
+      "infants with history of unsafe eating and feeding experiences",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "chromosomal disorders",
+      "cleft lip",
+      "cleft palate",
+      "congenital heart disease",
+      "inborn genetic diseases",
+      "neural tube defects",
+      "parental psychiatric disorder",
+      "physical challenge with eating",
+      "physical challenge with feeding",
+      "physical health issue of parent",
+      "prolonged enteral nutrition",
+      "psychological health issue of parent",
+      "sensory integration dysfunction"
+    ],
     "suggested_outcomes": [
       "bottle feeding establishment: infant",
       "bottle feeding performance",
@@ -2725,6 +3653,15 @@
       "lack of family knowledge about impact of practice on psychosocial health",
       "lack of family knowledge about impact of practice on reproductive health"
     ],
+    "at_risk_population": [
+      "women belonging to ethnic group in which practice is accepted",
+      "women belonging to family in which any female member has been subjected to practice",
+      "women from families with favorable attitude towards practice",
+      "women planning to visit family's country of origin in which practice is accepted",
+      "women residing in country where practice is accepted",
+      "women whose family leaders belong to ethnic group in which practice is accepted"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "abuse cessation",
       "abuse protection",
@@ -2751,6 +3688,23 @@
       "ineffective medication self-management",
       "insufficient muscle mass",
       "malnutrition"
+    ],
+    "at_risk_population": [
+      "individuals at extremes of weight",
+      "individuals with external conditions affecting fluid needs",
+      "individuals with internal conditions affecting fluid needs",
+      "women"
+    ],
+    "associated_conditions": [
+      "active fluid volume loss",
+      "deviations affecting fluid absorption",
+      "deviations affecting fluid elimination",
+      "deviations affecting fluid intake",
+      "deviations affecting vascular permeability",
+      "excessive fluid loss through normal route",
+      "fluid loss through abnormal route",
+      "pharmaceutical preparations",
+      "treatment regimen"
     ],
     "suggested_outcomes": [
       "fluid balance",
@@ -2805,6 +3759,22 @@
       "malnutrition"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals at extremes of weight",
+      "individuals with external conditions affecting fluid needs",
+      "individuals with internal conditions affecting fluid needs",
+      "women"
+    ],
+    "associated_conditions": [
+      "active fluid volume loss",
+      "deviations affecting fluid absorption",
+      "deviations affecting fluid elimination",
+      "deviations affecting fluid intake",
+      "excessive fluid loss through normal route",
+      "fluid loss through abnormal route",
+      "pharmaceutical preparations",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "fluid balance",
       "hydration",
@@ -2836,16 +3806,18 @@
       "ineffective medication self-management"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "deviations affecting fluid elimination",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [
       "electrolyte and acid-base balance",
       "fluid balance",
       "fluid overload severity",
       "hydration"
     ],
-    "suggested_interventions": [
-      "fluid management",
-      "fluid monitoring"
-    ]
+    "suggested_interventions": ["fluid management", "fluid monitoring"]
   },
   {
     "diagnosis": "risk for deficient fluid volume",
@@ -2860,6 +3832,22 @@
       "insufficient fluid intake",
       "insufficient muscle mass",
       "malnutrition"
+    ],
+    "at_risk_population": [
+      "individuals at extremes of weight",
+      "individuals with external conditions affecting fluid needs",
+      "individuals with internal conditions affecting fluid needs",
+      "women"
+    ],
+    "associated_conditions": [
+      "active fluid volume loss",
+      "deviations affecting fluid absorption",
+      "deviations affecting fluid elimination",
+      "deviations affecting fluid intake",
+      "excessive fluid loss through normal route",
+      "fluid loss through abnormal route",
+      "pharmaceutical preparations",
+      "treatment regimen"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -2898,6 +3886,26 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals aged >70 years",
+      "individuals experiencing prolonged hospitalization",
+      "individuals for whom walking 15 feet requires >6 seconds (4 meters > 5 seconds)",
+      "individuals"
+    ],
+    "associated_conditions": [
+      "anorexia",
+      "blood coagulation disorders",
+      "chronic disease",
+      "decreased serum 25-hydroxyvitamin d concentration",
+      "depression",
+      "endocrine regulatory dysfunction",
+      "mental disorders",
+      "sarcopenia",
+      "sarcopenic obesity",
+      "sensation disorders",
+      "suppressed inflammatory response"
+    ],
     "suggested_outcomes": [
       "activity tolerance",
       "balance",
@@ -2935,6 +3943,33 @@
       "sadness",
       "sedentary lifestyle"
     ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals aged >70 years",
+      "individuals experiencing prolonged hospitalization",
+      "individuals for whom walking 15 feet requires >6 seconds (4 meters > 5 seconds)",
+      "individuals living alone",
+      "individuals living in constricted spaces",
+      "individuals with history of falls",
+      "individuals with low educational level",
+      "individuals with unintentional loss of 25% of body weight over one year",
+      "individuals with unintentional weight loss >10 pounds (>4.5 kg) in one year",
+      "socially vulnerable individuals",
+      "women"
+    ],
+    "associated_conditions": [
+      "anorexia",
+      "blood coagulation disorders",
+      "chronic disease",
+      "decreased serum 25-hydroxyvitamin d concentration",
+      "depression",
+      "endocrine regulatory dysfunction",
+      "mental disorders",
+      "sarcopenia",
+      "sarcopenic obesity",
+      "sensation disorders",
+      "suppressed inflammatory response"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -2968,13 +4003,16 @@
       "pain"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "respiratory status: gas exchange, ventilation"
+    "at_risk_population": ["premature infants"],
+    "associated_conditions": [
+      "alveolar-capillary membrane changes",
+      "asthma",
+      "general anesthesia",
+      "heart diseases",
+      "ventilation-perfusion imbalance"
     ],
-    "suggested_interventions": [
-      "acid-base management",
-      "airway management"
-    ]
+    "suggested_outcomes": ["respiratory status: gas exchange, ventilation"],
+    "suggested_interventions": ["acid-base management", "airway management"]
   },
   {
     "diagnosis": "risk for dysfunctional gastrointestinal motility",
@@ -2990,6 +4028,21 @@
       "sedentary lifestyle",
       "stressors",
       "unsanitary food preparation"
+    ],
+    "at_risk_population": [
+      "individuals who ingested contaminated material",
+      "older adults",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "decreased gastrointestinal circulation",
+      "diabetes mellitus",
+      "enteral nutrition",
+      "food intolerance",
+      "gastroesophageal reflux disease",
+      "infections",
+      "pharmaceutical preparations",
+      "treatment regimen"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -3024,6 +4077,21 @@
       "unsanitary food preparation"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals who ingested contaminated material",
+      "older adults",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "decreased gastrointestinal circulation",
+      "diabetes mellitus",
+      "enteral nutrition",
+      "food intolerance",
+      "gastroesophageal reflux disease",
+      "infections",
+      "pharmaceutical preparations",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "gastrointestinal function",
       "electrolyte and acid-base balance",
@@ -3031,9 +4099,7 @@
       "hydration",
       "nausea and vomiting control"
     ],
-    "suggested_interventions": [
-      "gastric motility management"
-    ]
+    "suggested_interventions": ["gastric motility management"]
   },
   {
     "diagnosis": "risk for unstable blood glucose level",
@@ -3052,6 +4118,35 @@
       "inadequate knowledge of modifiable factors",
       "ineffective medication self-management",
       "sedentary lifestyle"
+    ],
+    "at_risk_population": [
+      "individuals experiencing rapid growth period",
+      "individuals in intensive care units",
+      "individuals of african descent",
+      "individuals with altered mental status",
+      "individuals with compromised physical health status",
+      "individuals with delayed cognitive development",
+      "individuals with family history of diabetes mellitus",
+      "individuals with history of autoimmune disorders",
+      "individuals with history of gestational diabetes",
+      "individuals with history of hypoglycemia",
+      "individuals with history of pre-pregnancy overweight",
+      "low birth weight infants",
+      "native american individuals",
+      "pregnant women >22 years of age",
+      "premature infants",
+      "women with hormonal shifts indicative of normal life stage changes"
+    ],
+    "associated_conditions": [
+      "cardiogenic shock",
+      "diabetes mellitus",
+      "infections",
+      "pancreatic diseases",
+      "pharmaceutical preparations",
+      "polycystic ovary syndrome",
+      "pre-eclampsia",
+      "pregnancy-induced hypertension",
+      "surgical procedures"
     ],
     "suggested_outcomes": [
       "compliance behavior: prescribed diet",
@@ -3109,6 +4204,15 @@
       "low attachment avoidance"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing socially unacceptable loss",
+      "individuals experiencing unexpected sudden death of significant other",
+      "individuals experiencing violent death of significant other",
+      "individuals unsatisfied with death notification",
+      "individuals who witnessed uncontrolled symptoms of the deceased"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "anxiety level",
       "coping",
@@ -3138,6 +4242,22 @@
       "inadequate social support",
       "low attachment avoidance"
     ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing socially unacceptable loss",
+      "individuals experiencing unexpected sudden death of significant other",
+      "individuals experiencing violent death of significant other",
+      "individuals unsatisfied with death notification",
+      "individuals who witnessed uncontrolled symptoms of the deceased",
+      "individuals with history of childhood abuse",
+      "individuals with history of unresolved grieving",
+      "individuals with significant predeath dependency on the deceased",
+      "individuals with strong emotional proximity to the deceased",
+      "individuals with unresolved conflict with the deceased",
+      "individuals without paid employment",
+      "women"
+    ],
+    "associated_conditions": ["anxiety disorders", "depression"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -3167,6 +4287,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "grief resolution",
       "dignified life closure",
@@ -3208,6 +4330,8 @@
       "programs incompletely address health problems"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "community grief response",
       "community health screening effectiveness",
@@ -3242,14 +4366,17 @@
       "stressors"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals with family history of alcoholism"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "participation in health care decisions",
       "psychosocial adjustment: life change",
       "risk detection"
     ],
-    "suggested_interventions": [
-      "self-efficacy enhancement"
-    ]
+    "suggested_interventions": ["self-efficacy enhancement"]
   },
   {
     "diagnosis": "ineffective health self-management",
@@ -3292,6 +4419,23 @@
       "unrealistic perception of treatment benefit"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "children",
+      "economically disadvantaged individuals",
+      "individuals experiencing adverse reactions to medications",
+      "individuals with caregiving responsibilities",
+      "individuals with history of ineffective health self-management",
+      "individuals with low educational level",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "asymptomatic disease",
+      "developmental disabilities",
+      "high acuity illness",
+      "neurocognitive disorders",
+      "polypharmacy",
+      "significant comorbidity"
+    ],
     "suggested_outcomes": [
       "health beliefs: perceived control, perceived threat",
       "knowledge: disease process",
@@ -3320,6 +4464,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "health-promoting behavior",
       "health-seeking behavior",
@@ -3385,6 +4531,19 @@
       "unsupportive family relations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged families",
+      "families with member experiencing delayed diagnosis",
+      "families with members experiencing low educational level",
+      "families with members who have limited decision-making experience",
+      "families with premature infant"
+    ],
+    "associated_conditions": [
+      "chronic disease",
+      "mental disorders",
+      "neurocognitive disorders",
+      "terminal illness"
+    ],
     "suggested_outcomes": [
       "family health-status",
       "knowledge: treatment regimen",
@@ -3434,6 +4593,19 @@
       "spiritual distress"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals from families with ineffective family coping",
+      "individuals with history of violence",
+      "men",
+      "older adults",
+      "young adult"
+    ],
+    "associated_conditions": [
+      "chronic disease",
+      "developmental disabilities",
+      "mental disorders"
+    ],
     "suggested_outcomes": [
       "health orientation",
       "health beliefs: perceived resources",
@@ -3481,13 +4653,24 @@
       "psychological distress"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals living alone",
+      "older adult"
+    ],
+    "associated_conditions": [
+      "depression",
+      "mental disorders",
+      "neoplasms",
+      "neurocognitive disorders",
+      "sensation disorders",
+      "vascular diseases"
+    ],
     "suggested_outcomes": [
       "safe home environment",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": [
-      "home maintenance assistance"
-    ]
+    "suggested_interventions": ["home maintenance assistance"]
   },
   {
     "diagnosis": "readiness for enhanced home maintenance behaviors",
@@ -3505,13 +4688,13 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "safe home environment",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": [
-      "home maintenance assistance"
-    ]
+    "suggested_interventions": ["home maintenance assistance"]
   },
   {
     "diagnosis": "risk for ineffective home maintenance behaviors",
@@ -3535,6 +4718,19 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals living alone",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "depression",
+      "mental disorders",
+      "neoplasms",
+      "neurocognitive disorders",
+      "sensation disorders",
+      "vascular disease"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -3556,10 +4752,9 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "hope",
-      "quality of life"
-    ],
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["hope", "quality of life"],
     "suggested_interventions": [
       "emotional support",
       "hope inspiration",
@@ -3606,6 +4801,26 @@
       "uncontrolled severe disease symptoms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "displaced individuals",
+      "economically disadvantaged individuals",
+      "individuals experiencing infertility",
+      "individuals experiencing significant loss",
+      "individuals with history of attempted suicide",
+      "individuals with history of being abandoned",
+      "older adults",
+      "unemployed individuals"
+    ],
+    "associated_conditions": [
+      "critical illness",
+      "depression",
+      "deterioration in physiological condition",
+      "feeding and eating disorders",
+      "mental disorders",
+      "neoplasms",
+      "terminal illness"
+    ],
     "suggested_outcomes": [
       "decision-making",
       "hope",
@@ -3614,9 +4829,7 @@
       "quality of life",
       "sleep"
     ],
-    "suggested_interventions": [
-      "hope inspiration"
-    ]
+    "suggested_interventions": ["hope inspiration"]
   },
   {
     "diagnosis": "risk for compromised human dignity",
@@ -3635,6 +4848,10 @@
       "perceived social stigma",
       "values incongruent with cultural norms"
     ],
+    "at_risk_population": [
+      "individuals with limited decision making experience"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "health beliefs: perceived control",
       "decision-making",
@@ -3665,6 +4882,22 @@
       "malnourished infants"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "east asian neonates",
+      "low birth weight neonates",
+      "native american neonates",
+      "neonates aged"
+    ],
+    "associated_conditions": [
+      "bacterial infections",
+      "enzyme deficiency",
+      "impaired metabolism",
+      "internal bleeding",
+      "liver malfunction",
+      "prenatal infection",
+      "sepsis",
+      "viral infection"
+    ],
     "suggested_outcomes": [
       "breastfeeding establishment: infant",
       "breastfeeding maintenance",
@@ -3686,6 +4919,22 @@
       "delay in meconium passage",
       "inadequate paternal feeding behavior",
       "malnourished infants"
+    ],
+    "at_risk_population": [
+      "east asian neonates",
+      "low birth weight neonates",
+      "native american neonates",
+      "neonates aged"
+    ],
+    "associated_conditions": [
+      "bacterial infections",
+      "enzyme deficiency",
+      "impaired metabolism",
+      "internal bleeding",
+      "liver malfunction",
+      "prenatal infection",
+      "sepsis",
+      "viral infection"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -3715,10 +4964,19 @@
       "vigorous activity"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
+    "at_risk_population": [
+      "individuals exposed to high environmental temperature"
     ],
+    "associated_conditions": [
+      "decreased sweat response",
+      "impaired health status",
+      "increased metabolic rate",
+      "ischemia",
+      "pharmaceutical preparations",
+      "sepsis",
+      "trauma"
+    ],
+    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_interventions": [
       "fever treatment",
       "malignant hyperthermia precautions",
@@ -3759,10 +5017,19 @@
       "malnutrition"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals at extremes of age",
+      "individuals at extremes of weight"
     ],
+    "associated_conditions": [
+      "damage to hypothalamus",
+      "decreased metabolic rate",
+      "pharmaceutical preparations",
+      "radiotherapy",
+      "trauma"
+    ],
+    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -3786,6 +5053,18 @@
       "inadequate clothing",
       "low environmental temperature",
       "malnutrition"
+    ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals at extremes of age",
+      "individuals at extremes of weight"
+    ],
+    "associated_conditions": [
+      "damage to hypothalamus",
+      "decreased metabolic rate",
+      "pharmaceutical preparations",
+      "radiotherapy",
+      "trauma"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -3827,10 +5106,29 @@
       "malnutrition"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
+    "at_risk_population": [
+      "low birth weight neonates",
+      "neonates aged 0-28 days",
+      "neonates born by cesarean delivery",
+      "neonates born to an adolescent mother",
+      "neonates born to economically disadvantaged families",
+      "neonates exposed to low environmental temperatures",
+      "neonates with high-risk out-of-hospital birth",
+      "neonates with inadequate subcutaneous fat",
+      "neonates with increased body surface area to weight ratio",
+      "neonates with unplanned out-of-hospital birth",
+      "premature neonates"
     ],
+    "associated_conditions": [
+      "damage to hypothalamus",
+      "immature stratum corneum",
+      "increased pulmonary vascular resistance",
+      "ineffective vascular control",
+      "inefficient nonshivering thermogenesis",
+      "low appearance, pulse, grimace, activity, & respiration (apgar) scores",
+      "pharmaceutical preparations"
+    ],
+    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_interventions": [
       "hypothermia treatment",
       "temperature regulation: monitor skin color and temperature"
@@ -3852,6 +5150,28 @@
       "inadequate clothing",
       "malnutrition"
     ],
+    "at_risk_population": [
+      "low birth weight neonates",
+      "neonates aged 0-28 days",
+      "neonates born by cesarean delivery",
+      "neonates born to an adolescent mother",
+      "neonates born to economically disadvantaged families",
+      "neonates exposed to low environmental temperatures",
+      "neonates with high-risk out-of-hospital birth",
+      "neonates with inadequate subcutaneous fat",
+      "neonates with increased body surface area to weight ratio",
+      "neonates with unplanned out-of-hospital birth",
+      "premature neonates"
+    ],
+    "associated_conditions": [
+      "damage to hypothalamus",
+      "immature stratum corneum",
+      "increased pulmonary vascular resistance",
+      "ineffective vascular control",
+      "inefficient nonshivering thermogenesis",
+      "low appearance, pulse, grimace, activity, & respiration (apgar) scores",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -3867,9 +5187,19 @@
       "inadequate availability of appropriate warming equipment",
       "wound area uncovered"
     ],
-    "suggested_outcomes": [
-      "thermoregulation"
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "acute hepatic failure",
+      "anemia",
+      "burns",
+      "cardiovascular complications",
+      "chronic renal impairment",
+      "combined regional and general anesthesia",
+      "neurological disorder",
+      "pharmaceutical preparations",
+      "trauma"
     ],
+    "suggested_outcomes": ["thermoregulation"],
     "suggested_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -3907,6 +5237,21 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "blended families",
+      "economically disadvantaged families",
+      "families experiencing infertility",
+      "families with history of domestic violence",
+      "families with incarcerated member",
+      "families with member experiencing alteration in health status",
+      "families with member experiencing developmental crisis",
+      "families with member living far from relatives",
+      "families with member with history of adoption",
+      "families with member with intimacy dysfunction",
+      "families with unemployed member",
+      "infertility treatment regimen"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "family social climate",
       "family integrity",
@@ -3939,6 +5284,20 @@
       "unrealistic expectations",
       "values incongruent with cultural norm"
     ],
+    "at_risk_population": [
+      "blended families",
+      "economically disadvantaged families",
+      "families experiencing infertility",
+      "families with history of domestic violence",
+      "families with incarcerated member",
+      "families with member experiencing alteration in health status",
+      "families with member experiencing developmental crisis",
+      "families with member living far from relatives",
+      "families with member with history of adoption",
+      "families with member with intimacy dysfunction",
+      "families with unemployed member"
+    ],
+    "associated_conditions": ["infertility treatment regimen"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -3971,6 +5330,17 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing developmental transition",
+      "individuals experiencing situational crisis",
+      "individuals exposed to toxic chemical"
+    ],
+    "associated_conditions": [
+      "dissociative identity disorder",
+      "mental disorders",
+      "neurocognitive disorders",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [
       "anxiety self-control",
       "abuse recovery (emotional, physical, sexual)",
@@ -4004,6 +5374,17 @@
       "perceived social discrimination",
       "values incongruent with cultural norms"
     ],
+    "at_risk_population": [
+      "individuals experiencing developmental transition",
+      "individuals experiencing situational crisis",
+      "individuals exposed to toxic chemicals"
+    ],
+    "associated_conditions": [
+      "dissociative identity disorder",
+      "mental disorders",
+      "neurocognitive disorders",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -4025,6 +5406,16 @@
       "unsanitary housing"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing forced migration",
+      "individuals experiencing labor exploitation",
+      "individuals experiencing precarious economic situation",
+      "individuals exposed to hazardous work conditions with inadequate training",
+      "individuals living far from significant others",
+      "individuals with undocumented immigration status",
+      "individuals with unfulfilled expectations of immigration"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "relocation adaptation, anxiety level",
       "fear level",
@@ -4061,12 +5452,15 @@
       "substance misuse"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "impulse self-control"
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered development",
+      "developmental disabilities",
+      "neurocognitive disorders",
+      "personality disorders"
     ],
-    "suggested_interventions": [
-      "impulse control training"
-    ]
+    "suggested_outcomes": ["impulse self-control"],
+    "suggested_interventions": ["impulse control training"]
   },
   {
     "diagnosis": "disability-associated urinary incontinence",
@@ -4094,10 +5488,19 @@
       "pelvic floor disorders"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "urinary continence",
-      "urinary elimination"
+    "at_risk_population": ["children", "older adults"],
+    "associated_conditions": [
+      "heart diseases",
+      "impaired coordination",
+      "impaired hand dexterity",
+      "intellectual disability",
+      "neuromuscular diseases",
+      "osteoarticular diseases",
+      "pharmaceutical preparations",
+      "psychological disorder",
+      "vision disorders"
     ],
+    "suggested_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_interventions": [
       "urinary habit training",
       "urinary incontinence care"
@@ -4126,10 +5529,24 @@
       "weak anterior wall of the vagina"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "urinary continence",
-      "urinary elimination"
+    "at_risk_population": [
+      "individuals with chronic cough",
+      "individuals with one type of urinary incontinence",
+      "multiparous women",
+      "older adults",
+      "women experiencing menopause",
+      "women giving birth vaginally"
     ],
+    "associated_conditions": [
+      "diabetes mellitus",
+      "estrogen deficiency",
+      "motor disorders",
+      "pelvic floor disorders",
+      "prolonged urinary incontinence",
+      "surgery for stress urinary incontinence",
+      "urethral sphincter injury"
+    ],
+    "suggested_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_interventions": [
       "urinary catheterization: intermittent",
       "urinary elimination management",
@@ -4154,10 +5571,22 @@
       "pelvic organ prolapse"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "urinary continence",
-      "urinary elimination"
+    "at_risk_population": [
+      "individuals who perform high-intensity physical exercise",
+      "multiparous women",
+      "pregnant women",
+      "women experiencing menopause",
+      "women giving birth vaginally"
     ],
+    "associated_conditions": [
+      "damaged pelvic floor muscles",
+      "degenerative changes in pelvic floor muscles",
+      "intrinsic urethral sphincter deficiency",
+      "nervous system diseases",
+      "prostatectomy",
+      "urethral sphincter injury"
+    ],
+    "suggested_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_interventions": [
       "pelvic muscle exercises",
       "urinary incontinence care"
@@ -4189,6 +5618,25 @@
       "pelvic organ prolapse"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals exposed to abuse",
+      "individuals with history of urinary urgency during childhood",
+      "older adults",
+      "women",
+      "women experiencing menopause"
+    ],
+    "associated_conditions": [
+      "atrophic vaginitis",
+      "bladder outlet obstruction",
+      "depression",
+      "diabetes mellitus",
+      "nervous system diseases",
+      "nervous system trauma",
+      "overactive pelvic floor",
+      "pharmaceutical preparations",
+      "treatment regimen",
+      "urologic diseases"
+    ],
     "suggested_outcomes": [
       "tissue integrity: skin and mucous membranes",
       "urinary continence",
@@ -4216,6 +5664,25 @@
       "pelvic floor disorders",
       "pelvic organ prolapse"
     ],
+    "at_risk_population": [
+      "individuals exposed to abuse",
+      "individuals with history of urinary urgency during childhood",
+      "older adults",
+      "women",
+      "women experiencing menopause"
+    ],
+    "associated_conditions": [
+      "atrophic vaginitis",
+      "bladder outlet obstruction",
+      "depression",
+      "diabetes mellitus",
+      "nervous system diseases",
+      "nervous system trauma",
+      "overactive pelvic floor",
+      "pharmaceutical preparations",
+      "treatment regimen",
+      "urologic disease"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -4237,6 +5704,19 @@
       "sensory overstimulation"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "infants exposed to teratogen in utero",
+      "infants with low postmenstrual age",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "congenital disorders",
+      "immature neurological functioning",
+      "impaired infant motor functioning",
+      "inborn genetic diseases",
+      "invasive procedure",
+      "oral impairment"
+    ],
     "suggested_outcomes": [
       "child development",
       "neurological status",
@@ -4270,6 +5750,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -4290,6 +5772,19 @@
       "pain",
       "sensory deprivation",
       "sensory overstimulation"
+    ],
+    "at_risk_population": [
+      "infants exposed to teratogen in utero",
+      "infants with low postmenstrual age",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "congenital disorders",
+      "immature neurological functioning",
+      "impaired infant motor functioning",
+      "inborn genetic diseases",
+      "invasive procedure",
+      "oral impairment"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -4319,10 +5814,26 @@
       "smoking",
       "stasis of body fluid"
     ],
-    "suggested_outcomes": [
-      "risk control: infectious process",
-      "immune status"
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals exposed to disease outbreak",
+      "individuals exposed to increased environmental pathogens",
+      "individuals with low level of education",
+      "infants who are not breastfed"
     ],
+    "associated_conditions": [
+      "altered ph of secretion",
+      "anemia",
+      "chronic illness",
+      "decrease in ciliary action",
+      "immunosuppression",
+      "invasive procedure",
+      "leukopenia",
+      "premature rupture of amniotic membrane",
+      "prolonged rupture of amniotic membrane",
+      "suppressed inflammatory response"
+    ],
+    "suggested_outcomes": ["risk control: infectious process", "immune status"],
     "suggested_interventions": [
       "immunization/vaccination management",
       "infection control",
@@ -4334,8 +5845,29 @@
     "definition": "susceptible to invasion of pathogenic organisms at surgical site, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "alcoholism, obesity, smoking"
+    "risk_factors": ["alcoholism, obesity, smoking"],
+    "at_risk_population": [
+      "individuals exposed to excessive number of personnel during surgical procedure",
+      "individuals exposed to increased environmental pathogens",
+      "individuals with american society of anesthesiologists (asa) physical health status score"
+    ],
+    "associated_conditions": [
+      "diabetes mellitus",
+      "extensive surgical procedures",
+      "general anesthesia",
+      "hypertension",
+      "immunosuppression",
+      "inadequate antibiotic prophylaxis",
+      "ineffective antibiotic prophylaxis",
+      "infections at other surgical sites",
+      "invasive procedure",
+      "post-traumatic osteoarthritis",
+      "prolonged duration of surgical procedure",
+      "prothesis",
+      "rheumatoid arthritis",
+      "significant comorbidity",
+      "surgical implant",
+      "surgical wound contamination"
     ],
     "suggested_outcomes": [
       "infection control, infection control: intraoperative, infection protection, teaching: individual, preoperative"
@@ -4359,6 +5891,18 @@
       "tainted nutritional source",
       "unsafe mode of transport"
     ],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered psychomotor performance",
+      "autoimmune diseases",
+      "biochemical dysfunction",
+      "effector dysfunction",
+      "hypoxia",
+      "immune system diseases",
+      "impaired primary defense mechanisms",
+      "sensation disorders",
+      "sensory integration dysfunction"
+    ],
     "suggested_outcomes": [
       "personal safety behavior",
       "risk control",
@@ -4380,14 +5924,23 @@
       "exposure of the eyeball",
       "inadequate knowledge of modifiable factors"
     ],
+    "at_risk_population": [
+      "individuals experiencing prolonged hospitalization"
+    ],
+    "associated_conditions": [
+      "artificial respiration",
+      "blinking <5 times per minute",
+      "glasgow coma scale score <6",
+      "oxygen therapy",
+      "periorbital edema",
+      "pharmaceutical preparations",
+      "tracheostomy"
+    ],
     "suggested_outcomes": [
       "sensory function: vision",
       "vision compensation behavior"
     ],
-    "suggested_interventions": [
-      "visual deficit",
-      "environmental management"
-    ]
+    "suggested_interventions": ["visual deficit", "environmental management"]
   },
   {
     "diagnosis": "risk for occupational injury",
@@ -4395,6 +5948,10 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals exposed to environmental temperature extremes"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "personal health and safety behaviors",
       "risk control",
@@ -4452,12 +6009,20 @@
       "use of products that remove the natural protection of the nipple"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "breastfeeding establishment: maternal"
+    "at_risk_population": [
+      "primiparous women",
+      "sole mother",
+      "women aged < 19 years",
+      "women breastfeeding for the first time",
+      "women with depigmented nipple areolar complex",
+      "women with history of inadequate nipple-areolar preparation during prenatal care",
+      "women with history of nipple trauma in breastfeeding",
+      "women with non-protruding nipples",
+      "women with pink nipple-areolar complex"
     ],
-    "suggested_interventions": [
-      "pain management: acute"
-    ]
+    "associated_conditions": ["ankyloglossia", "maxillofacial abnormalities"],
+    "suggested_outcomes": ["breastfeeding establishment: maternal"],
+    "suggested_interventions": ["pain management: acute"]
   },
   {
     "diagnosis": "risk for nipple-areolar complex injury",
@@ -4478,6 +6043,17 @@
       "maternal anxiety about"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "primiparous women",
+      "sole mother",
+      "women aged < 19 years",
+      "women breastfeeding for the first time",
+      "women with depigmented nipple areolar complex",
+      "women with history of nipple trauma in breastfeeding",
+      "women with non-protruding nipples",
+      "women with pink nipple-areolar complex"
+    ],
+    "associated_conditions": ["ankyloglossia", "maxillofacial abnormalities"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -4493,15 +6069,25 @@
       "neurobehavioral manifestations",
       "obesity"
     ],
+    "at_risk_population": ["individuals at extremes of age"],
+    "associated_conditions": [
+      "anatomical variation in the pelvic organs",
+      "condition preventing ability to secure catheter",
+      "detrusor sphincter dyssynergia",
+      "latex allergy",
+      "long-term use of urinary catheter",
+      "medullary injury",
+      "prostatic hyperplasia",
+      "repetitive catheterizations",
+      "retention balloon inflated to"
+    ],
     "suggested_outcomes": [
       "urinary elimination",
       "knowledge: infection management",
       "treatment regimen",
       "treatment procedure, tissue integrity: skin and mucous membranes, risk control: infectious process, risk detection"
     ],
-    "suggested_interventions": [
-      "urinary elimination management"
-    ]
+    "suggested_interventions": ["urinary elimination management"]
   },
   {
     "diagnosis": "insomnia",
@@ -4537,6 +6123,22 @@
       "use of interactive electronic devices"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "economically disadvantaged individuals",
+      "grieving individuals",
+      "individuals undergoing changes in marital status",
+      "night shift workers",
+      "older adults",
+      "pregnant women in third trimester",
+      "rotating shift workers",
+      "women"
+    ],
+    "associated_conditions": [
+      "chronic disease",
+      "hormonal change",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [
       "comfort level",
       "pain level",
@@ -4546,9 +6148,7 @@
       "rest",
       "sleep"
     ],
-    "suggested_interventions": [
-      "sleep enhancement"
-    ]
+    "suggested_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "deficient knowledge",
@@ -4575,6 +6175,16 @@
       "neurobehavioral manifestations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "illiterate individuals",
+      "individuals with low educational level"
+    ],
+    "associated_conditions": [
+      "depression",
+      "developmental disabilities",
+      "neurocognitive disorders"
+    ],
     "suggested_outcomes": [
       "knowledge: disease process",
       "energy conservation",
@@ -4597,18 +6207,13 @@
   {
     "diagnosis": "readiness for enhanced knowledge",
     "definition": "a pattern of cognitive information related to a specific topic, or its acquisition, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance learning"
-    ],
+    "defining_characteristics": ["expresses desire to enhance learning"],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "knowledge: health promotion"
-    ],
-    "suggested_interventions": [
-      "health education",
-      "health system guidance"
-    ]
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["knowledge: health promotion"],
+    "suggested_interventions": ["health education", "health system guidance"]
   },
   {
     "diagnosis": "risk for latex allergy reaction",
@@ -4619,6 +6224,22 @@
       "inadequate knowledge about avoidance of relevant allergens",
       "inattentive to potential environmental latex exposure",
       "inattentive to potential exposure to latex reactive foods"
+    ],
+    "at_risk_population": [
+      "individuals frequently exposed to latex product",
+      "individuals receiving repetitive injections from rubber topped bottles",
+      "individuals with family history of atopic dermatitis",
+      "individuals with history of latex reaction",
+      "infants undergoing numerous operations beginning soon after birth"
+    ],
+    "associated_conditions": [
+      "asthma",
+      "atopy",
+      "food allergy",
+      "hypersensitivity to natural latex rubber protein",
+      "multiple surgical procedures",
+      "poinsettia plant allergy",
+      "urinary bladder diseases"
     ],
     "suggested_outcomes": [
       "allergic response: systemic",
@@ -4649,6 +6270,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "health beliefs: perceived resources",
       "health-promoting behavior",
@@ -4665,13 +6288,14 @@
     "definition": "susceptible to a decrease in liver function, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "substance misuse"
+    "risk_factors": ["substance misuse"],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "human immunodeficiency virus (hiv) coinfection",
+      "pharmaceutical preparations",
+      "viral infection"
     ],
-    "suggested_outcomes": [
-      "knowledge: health behavior",
-      "liver function"
-    ],
+    "suggested_outcomes": ["knowledge: health behavior", "liver function"],
     "suggested_interventions": [
       "teaching: disease process",
       "substance use treatment"
@@ -4688,6 +6312,8 @@
       "physical isolation",
       "social isolation"
     ],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "loneliness severity",
       "social interaction skills",
@@ -4731,6 +6357,28 @@
       "unrealistic perception of treatment benefit"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "children",
+      "economically disadvantaged individuals",
+      "individuals with history of ineffective health self-management",
+      "individuals with limited decision making experience",
+      "individuals with low educational level",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "chemotherapy",
+      "chronic venous insufficiency",
+      "developmental disabilities",
+      "infections",
+      "invasive procedure",
+      "major surgery",
+      "neoplasms",
+      "obesity",
+      "radiotherapy",
+      "removal of lymph nodes",
+      "trauma"
+    ],
     "suggested_outcomes": [
       "lymphedema severity: severity of adverse physical, emotional, and social responses due to lymphedema"
     ],
@@ -4769,6 +6417,28 @@
       "unrealistic perception of treatment benefit"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "children",
+      "economically disadvantaged individuals",
+      "individuals with history of ineffective health self-management",
+      "individuals with limited decision making experience",
+      "individuals with low educational level",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "chemotherapy",
+      "chronic venous insufficiency",
+      "developmental disabilities",
+      "infections",
+      "invasive procedure",
+      "major surgery",
+      "neoplasms",
+      "obesity",
+      "radiotherapy",
+      "removal of lymph nodes",
+      "trauma"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -4781,6 +6451,13 @@
       "inadequate prenatal care",
       "substance misuse",
       "unaddressed abuse"
+    ],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "compromised fetal oxygen transport",
+      "glucose metabolism disorders",
+      "pregnancy complication",
+      "treatment regimen"
     ],
     "suggested_outcomes": [
       "fetal status: antepartum",
@@ -4823,6 +6500,12 @@
       "water-electrolyte imbalance"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals aged 60 years",
+      "individuals with low educational level"
+    ],
+    "associated_conditions": ["anemia", "brain hypoxia", "cognition disorders"],
     "suggested_outcomes": [
       "cognitive orientation",
       "memory",
@@ -4850,6 +6533,20 @@
       "inadequate knowledge of modifiable factors",
       "inattentive to second-hand smoke",
       "smoking"
+    ],
+    "at_risk_population": [
+      "individuals aged >30 years",
+      "individuals with family history of diabetes mellitus",
+      "individuals with family history of dyslipidemia",
+      "individuals with family history of hypertension",
+      "individuals with family history of metabolic syndrome",
+      "individuals with family history of obesity",
+      "individuals with family history of unstable blood pressure"
+    ],
+    "associated_conditions": [
+      "hyperuricemia",
+      "insulin resistance",
+      "polycystic ovary syndrome"
     ],
     "suggested_outcomes": [
       "weight loss behavior",
@@ -4904,14 +6601,30 @@
       "physical deconditioning"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "children",
+      "individuals experiencing prolonged bed rest",
+      "individuals in the early postoperative period",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "artificial respiration",
+      "critical illness",
+      "dementia",
+      "drain tubes",
+      "musculoskeletal impairment",
+      "neurodegenerative disorders",
+      "neuromuscular diseases",
+      "parkinson's disease",
+      "pharmaceutical preparations",
+      "sedation"
+    ],
     "suggested_outcomes": [
       "immobility consequences: physiological",
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": [
-      "bed rest care"
-    ]
+    "suggested_interventions": ["bed rest care"]
   },
   {
     "diagnosis": "impaired physical mobility",
@@ -4952,6 +6665,19 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered bone structure integrity",
+      "contractures",
+      "depression",
+      "developmental disabilities",
+      "impaired metabolism",
+      "musculoskeletal impairment",
+      "neuromuscular diseases",
+      "pharmaceutical preparations",
+      "prescribed movement restrictions",
+      "sensory-perceptual impairment"
+    ],
     "suggested_outcomes": [
       "ambulation",
       "ambulation: wheelchair",
@@ -5022,9 +6748,17 @@
       "unaddressed inadequate vision"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "ambulation: wheelchair"
+    "at_risk_population": [
+      "individuals using wheelchair for short time",
+      "individuals with history of fall from wheelchair",
+      "older adults"
     ],
+    "associated_conditions": [
+      "musculoskeletal impairment",
+      "neuromuscular diseases",
+      "vision disorders"
+    ],
+    "suggested_outcomes": ["ambulation: wheelchair"],
     "suggested_interventions": [
       "exercise therapy: muscle control",
       "positioning: wheelchair"
@@ -5065,6 +6799,12 @@
       "weight change"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "chronic disease",
+      "functional impairment",
+      "psychosis"
+    ],
     "suggested_outcomes": [
       "agitation level",
       "hope",
@@ -5107,6 +6847,11 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing loss of personal autonomy",
+      "individuals physically distant of decision-maker"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "personal autonomy",
       "client satisfaction",
@@ -5129,14 +6874,23 @@
       "excitement",
       "smoking"
     ],
+    "at_risk_population": ["pregnant women"],
+    "associated_conditions": [
+      "chemotherapy",
+      "depression",
+      "fluid restriction",
+      "inability to feed orally",
+      "oxygen therapy",
+      "pharmaceutical preparations",
+      "radiotherapy to the head and neck",
+      "systemic diseases"
+    ],
     "suggested_outcomes": [
       "oral health",
       "self-care: oral hygiene",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_interventions": [
-      "oral health restoration"
-    ]
+    "suggested_interventions": ["oral health restoration"]
   },
   {
     "diagnosis": "nausea",
@@ -5156,6 +6910,26 @@
       "unpleasant sensory stimuli"
     ],
     "risk_factors": [],
+    "at_risk_population": ["pregnant women"],
+    "associated_conditions": [
+      "abdominal neoplasms",
+      "altered biochemical phenomenon",
+      "esophageal disease",
+      "gastric distention",
+      "gastrointestinal irritation",
+      "intracranial hypertension",
+      "labyrinthitis",
+      "liver capsule stretch",
+      "localized tumor",
+      "ménière's disease",
+      "meningitis",
+      "motion sickness",
+      "pancreatic diseases",
+      "pharmaceutical preparations",
+      "psychological disorder",
+      "splenetic capsule stretch",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "comfort level",
       "hydration",
@@ -5187,10 +6961,14 @@
       "risk for ineffective thermoregulation (00274)",
       "risk for injury (00035)"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
+    "at_risk_population": [
+      "neonates exposed to maternal substance misuse in utero",
+      "neonates iatrogenically exposed to substance for pain control",
+      "premature neonates"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "comfort status: physical",
       "breastfeeding establishment: infant",
@@ -5216,11 +6994,11 @@
   {
     "diagnosis": "readiness for enhanced nutrition",
     "definition": "a pattern of nutrient intake, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance nutrition"
-    ],
+    "defining_characteristics": ["expresses desire to enhance nutrition"],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "nutritional status",
       "nutritional status: food and fluid intake",
@@ -5274,6 +7052,24 @@
       "weakened of muscles required for mastication"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "competitive athletes",
+      "displaced individuals",
+      "economically disadvantaged individuals",
+      "individuals with low educational level",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "body dysmorphic disorders",
+      "digestive system diseases",
+      "immunosuppression",
+      "kwashiorkor",
+      "malabsorption syndromes",
+      "mental disorders",
+      "neoplasms",
+      "neurocognitive disorders",
+      "parasitic disorders"
+    ],
     "suggested_outcomes": [
       "nutritional status",
       "food and fluid intake",
@@ -5348,14 +7144,34 @@
       "stressors"
     ],
     "risk_factors": [],
+    "at_risk_population": ["economically disadvantaged individuals"],
+    "associated_conditions": [
+      "allergies",
+      "autosomal disorder",
+      "behavioral disorder",
+      "chemotherapy",
+      "decreased female hormone levels",
+      "decreased platelets",
+      "depression",
+      "immune system diseases",
+      "immunosuppression",
+      "infections",
+      "loss of oral support structure",
+      "mechanical factor",
+      "nil per os (npo) >24 hours",
+      "oral trauma",
+      "radiotherapy",
+      "sjögren's syndrome",
+      "surgical procedures",
+      "trauma",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "oral health",
       "oral hygiene",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_interventions": [
-      "oral health restoration"
-    ]
+    "suggested_interventions": ["oral health restoration"]
   },
   {
     "diagnosis": "risk for impaired oral mucous membrane integrity",
@@ -5377,15 +7193,35 @@
       "smoking",
       "stressors"
     ],
+    "at_risk_population": ["economically disadvantaged individuals"],
+    "associated_conditions": [
+      "allergies",
+      "autosomal disorder",
+      "behavioral disorder",
+      "chemotherapy",
+      "decreased female hormone levels",
+      "decreased platelets",
+      "depression",
+      "immune system diseases",
+      "immunosuppression",
+      "infections",
+      "loss of oral support structure",
+      "mechanical factor",
+      "nil per os (npo) >24 hours",
+      "oral trauma",
+      "radiotherapy",
+      "sjögren's syndrome",
+      "surgical procedures",
+      "trauma",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "obesity",
     "definition": "a condition in which an individual accumulates excessive fat for age and gender that exceeds overweight.",
-    "defining_characteristics": [
-      "adult: body mass index >30 kg/m"
-    ],
+    "defining_characteristics": ["adult: body mass index >30 kg/m"],
     "related_factors": [
       "abnormal eating behavior patterns",
       "abnormal eating perception patterns",
@@ -5402,6 +7238,13 @@
       "sedentary behavior occurring for"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals who experienced premature pubarche",
+      "individuals who experienced rapid weight gain during childhood",
+      "individuals who experienced rapid weight gain"
+    ],
+    "associated_conditions": ["inborn genetic diseases"],
     "suggested_outcomes": [
       "nutritional status",
       "nutritional status: food and fluid intake",
@@ -5417,9 +7260,7 @@
   {
     "diagnosis": "overweight",
     "definition": "a condition in which an individual accumulates abnormal or excessive fat for age and gender.",
-    "defining_characteristics": [
-      "adult: body mass index >25 kg/m"
-    ],
+    "defining_characteristics": ["adult: body mass index >25 kg/m"],
     "related_factors": [
       "abnormal eating behavior patterns",
       "abnormal eating perception patterns",
@@ -5437,6 +7278,8 @@
       "sedentary behavior occurring for"
     ],
     "risk_factors": [],
+    "at_risk_population": ["adult: body mass index approaching 25 kg/m"],
+    "associated_conditions": ["inborn genetic disorders"],
     "suggested_outcomes": [
       "nutritional status",
       "nutritional status: food and fluid intake",
@@ -5461,6 +7304,8 @@
       "consumption of sugar-sweetened beverages",
       "dyssomnias"
     ],
+    "at_risk_population": ["adult: body mass index approaching 25 kg/m"],
+    "associated_conditions": ["inborn genetic diseases"],
     "suggested_outcomes": [
       "nutritional status",
       "nutritional status: food and fluid intake",
@@ -5502,6 +7347,8 @@
       "physical injury agent"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "pain control",
       "pain level",
@@ -5542,16 +7389,42 @@
       "whole-body vibration"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals aged >50 years",
+      "individuals with history of being abused",
+      "individuals with a history of genital mutilation",
+      "individuals with history of over indebtedness",
+      "individuals with history of static work postures",
+      "individuals with history of substance misuse",
+      "individuals with history of vigorous exercise",
+      "women"
+    ],
+    "associated_conditions": [
+      "bone fractures",
+      "central nervous system sensitization",
+      "chronic musculoskeletal diseases",
+      "contusion",
+      "crush syndrome",
+      "imbalance of neurotransmitters, neuromodulators, and receptors",
+      "immune system diseases",
+      "impaired metabolism",
+      "inborn genetic diseases",
+      "ischemia",
+      "neoplasms",
+      "nerve compression syndromes",
+      "nervous system diseases",
+      "post-trauma related condition",
+      "prolonged increase in cortisol level",
+      "soft tissue injuries",
+      "spinal cord injuries"
+    ],
     "suggested_outcomes": [
       "comfort level",
       "pain control",
       "pain: disruptive effects",
       "pain level"
     ],
-    "suggested_interventions": [
-      "analgesic administration",
-      "pain management"
-    ]
+    "suggested_interventions": ["analgesic administration", "pain management"]
   },
   {
     "diagnosis": "chronic pain syndrome",
@@ -5577,6 +7450,8 @@
       "sleep disturbances"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -5609,6 +7484,23 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "women experiencing emergency situation during labor",
+      "women from cultures with negative perspective of labor pain",
+      "women giving birth in a disease based health care system",
+      "women whose mothers have a high level of education",
+      "women with history of pre-pregnancy dysmenorrhea",
+      "women with history of sexual abuse during childhood",
+      "women without supportive companion"
+    ],
+    "associated_conditions": [
+      "cervical dilation",
+      "depression",
+      "fetal expulsion",
+      "high maternal trait anxiety",
+      "prescribed mobility restriction",
+      "prolonged duration of labor"
+    ],
     "suggested_outcomes": [
       "client satisfaction: pain management, comfort status",
       "knowledge: pain management, pain control, pain level"
@@ -5646,6 +7538,8 @@
       "unaddressed intimate partner violence"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "abuse cessation",
       "abuse protection",
@@ -5699,6 +7593,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "child development",
       "knowledge: child physical safety",
@@ -5747,6 +7643,8 @@
       "substance misuse",
       "unaddressed intimate partner violence"
     ],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -5766,6 +7664,24 @@
       "obesity",
       "prolonged non-anatomic positioning of limbs",
       "rigid support surface"
+    ],
+    "at_risk_population": [
+      "individuals at extremes of age",
+      "individuals in lateral position",
+      "individuals in lithotomy position",
+      "individuals in prone position",
+      "individuals in trendelenburg position",
+      "individuals undergoing surgical procedure >1 hour"
+    ],
+    "associated_conditions": [
+      "diabetes mellitus",
+      "edema",
+      "emaciation",
+      "general anesthesia",
+      "immobilization",
+      "neuropathy",
+      "sensoriperceptual disturbance from anesthesia",
+      "vascular diseases"
     ],
     "suggested_outcomes": [
       "circulation status",
@@ -5796,8 +7712,16 @@
     "definition": "susceptible to disruption in the circulation, sensation, and motion of an extremity, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
+    "risk_factors": ["to be developed"],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "bone fractures",
+      "burns",
+      "immobilization",
+      "mechanical compression",
+      "orthopedic surgery",
+      "trauma",
+      "vascular obstruction"
     ],
     "suggested_outcomes": [
       "circulation status",
@@ -5815,6 +7739,8 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "knowledge: child physical safety, medication, personal safety",
       "parenting performance",
@@ -5879,6 +7805,28 @@
       "survivor role"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals displaced from home",
+      "individuals experiencing prolonged duration of traumatic event",
+      "individuals exposed to disaster",
+      "individuals exposed to epidemic",
+      "individuals exposed to event involving multiple deaths",
+      "individuals exposed to event outside the range of usual human experience",
+      "individuals exposed to serious accident",
+      "individuals exposed to war",
+      "individuals in human service occupations",
+      "individuals suffering serious threat",
+      "individuals who witnessed mutilation",
+      "individuals who witnessed violent death",
+      "individuals whose loved ones suffered serious injuries",
+      "individuals whose loved ones suffered serious threats",
+      "individuals with destructed home",
+      "individuals with history of being a prisoner of war",
+      "individuals with history of being abused",
+      "individuals with history of criminal victimization",
+      "individuals with history of torture"
+    ],
+    "associated_conditions": ["depression"],
     "suggested_outcomes": [
       "abuse cessation",
       "abuse protection",
@@ -5886,10 +7834,7 @@
       "self-mutilation restraint",
       "sleep"
     ],
-    "suggested_interventions": [
-      "counseling",
-      "support system enhancement"
-    ]
+    "suggested_interventions": ["counseling", "support system enhancement"]
   },
   {
     "diagnosis": "risk for post-trauma syndrome",
@@ -5905,6 +7850,28 @@
       "self-injurious behavior",
       "survivor role"
     ],
+    "at_risk_population": [
+      "individuals displaced from home",
+      "individuals experiencing prolonged duration of traumatic event",
+      "individuals exposed to disaster",
+      "individuals exposed to epidemic",
+      "individuals exposed to event involving multiple deaths",
+      "individuals exposed to event outside the range of usual human experience",
+      "individuals exposed to serious accident",
+      "individuals exposed to war",
+      "individuals in human service occupations",
+      "individuals suffering serious threat",
+      "individuals who witnessed mutilation",
+      "individuals who witnessed violent death",
+      "individuals whose loved ones suffered serious injuries",
+      "individuals whose loved ones suffered serious threats",
+      "individuals with destructed home",
+      "individuals with history of being a prisoner of war",
+      "individuals with history of being abused",
+      "individuals with history of criminal victimization",
+      "individuals with history of torture"
+    ],
+    "associated_conditions": ["depression"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -5923,6 +7890,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "health beliefs: perceived control",
       "participation in health care decisions",
@@ -5961,6 +7930,17 @@
       "inadequate participation in treatment"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals exposed to traumatic events"
+    ],
+    "associated_conditions": [
+      "cerebrovascular disorders",
+      "cognition disorders",
+      "critical illness",
+      "progressive illness",
+      "unpredictability of illness trajectory"
+    ],
     "suggested_outcomes": [
       "depression self-control",
       "health beliefs",
@@ -5998,6 +7978,16 @@
       "perceived social stigma",
       "social marginalization"
     ],
+    "at_risk_population": [
+      "economically disadvantaged",
+      "individuals exposed to traumatic events"
+    ],
+    "associated_conditions": [
+      "cerebrovascular disorders, cognition disorders",
+      "critical illness",
+      "progressive illness",
+      "unpredictability of illness trajectory"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6020,9 +8010,40 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "tissue integrity: skin and mucous membranes"
+    "at_risk_population": [
+      "individuals in aged care settings",
+      "individuals in intensive care units",
+      "individuals in palliative care settings",
+      "individuals in rehabilitation settings",
+      "individuals in transit to or between clinical care settings",
+      "individuals receiving home-based care",
+      "individuals with american society of anesthesiologists (asa) physical health status score"
     ],
+    "associated_conditions": [
+      "anemia",
+      "cardiovascular diseases",
+      "chronic neurological conditions",
+      "critical illness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "edema",
+      "elevated c-reactive protein",
+      "hemodynamic instability",
+      "hip fracture",
+      "immobilization",
+      "impaired circulation",
+      "intellectual disability",
+      "medical devices",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "physical trauma",
+      "prolonged duration of surgical procedure",
+      "sensation disorders",
+      "spinal cord injuries"
+    ],
+    "suggested_outcomes": ["tissue integrity: skin and mucous membranes"],
     "suggested_interventions": [
       "pain management",
       "pressure injury care",
@@ -6038,6 +8059,39 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals in aged care settings",
+      "individuals in intensive care units",
+      "individuals in palliative care settings",
+      "individuals in rehabilitation settings",
+      "individuals in transit to or between clinical care settings",
+      "individuals receiving home-based care",
+      "individuals with american society of anesthesiologists (asa) physical health"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "cardiovascular diseases",
+      "chronic neurological conditions",
+      "critical illness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "edema",
+      "elevated c-reactive protein",
+      "hemodynamic instability",
+      "hip fracture",
+      "immobilization",
+      "impaired circulation",
+      "intellectual disability",
+      "medical devices",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "physical trauma",
+      "prolonged duration of surgical procedure",
+      "sensation disorders",
+      "spinal cord injuries"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6060,9 +8114,45 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "tissue integrity: skin and mucous membranes"
+    "at_risk_population": [
+      "children in intensive care units",
+      "children in long-term care facilities",
+      "children in palliative care settings",
+      "children in rehabilitation settings",
+      "children in transit to or between clinical care settings",
+      "children receiving home-based care",
+      "children with body mass index above normal range for age and gender",
+      "children with body mass index below normal range for age and gender",
+      "children with developmental issues",
+      "children with growth issues",
+      "children with large head circumference",
+      "children with large skin surface area"
     ],
+    "associated_conditions": [
+      "alkaline skin ph",
+      "altered cutaneous structure",
+      "anemia",
+      "cardiovascular diseases",
+      "decreased level of consciousness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "edema",
+      "elevated c-reactive protein",
+      "frequent invasive procedures",
+      "hemodynamic instability",
+      "immobilization",
+      "impaired circulation",
+      "intellectual disability",
+      "medical devices",
+      "pharmaceutical preparations",
+      "physical trauma",
+      "prolonged duration of surgical procedure",
+      "sensation disorders",
+      "spinal cord injuries"
+    ],
+    "suggested_outcomes": ["tissue integrity: skin and mucous membranes"],
     "suggested_interventions": [
       "pain management",
       "pressure injury care",
@@ -6078,6 +8168,44 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "children in intensive care units",
+      "children in long-term care facilities",
+      "children in palliative care settings",
+      "children in rehabilitation settings",
+      "children in transit to or between clinical care settings",
+      "children receiving home-based care",
+      "children with body mass index above normal range for age and gender",
+      "children with body mass index below normal range for age and gender",
+      "children with developmental issues",
+      "children with growth issues",
+      "children with large head circumference",
+      "children with large skin surface area"
+    ],
+    "associated_conditions": [
+      "alkaline skin ph",
+      "altered cutaneous structure",
+      "anemia",
+      "cardiovascular diseases",
+      "decreased level of consciousness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "edema",
+      "elevated c-reactive protein",
+      "frequent invasive procedures",
+      "hemodynamic instability",
+      "immobilization",
+      "impaired circulation",
+      "intellectual disability",
+      "medical devices",
+      "pharmaceutical preparations",
+      "physical trauma",
+      "prolonged duration of surgical procedure",
+      "sensation disorders",
+      "spinal cord injuries"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6101,9 +8229,29 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "tissue integrity: skin and mucous membranes"
+    "at_risk_population": [
+      "low birth weight neonates",
+      "neonates <32 weeks gestation",
+      "neonates experiencing prolonged intensive care unit stay",
+      "neonates in intensive care units"
     ],
+    "associated_conditions": [
+      "anemia",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "edema",
+      "immature skin integrity",
+      "immature skin texture",
+      "immature stratum corneum",
+      "immobilization",
+      "medical devices",
+      "nutritional deficiencies related to prematurity",
+      "pharmaceutical preparations",
+      "prolonged duration of surgical procedure",
+      "significant comorbidity"
+    ],
+    "suggested_outcomes": ["tissue integrity: skin and mucous membranes"],
     "suggested_interventions": [
       "pain management",
       "pressure injury care",
@@ -6119,6 +8267,28 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "low birth weight neonates",
+      "neonates <32 weeks gestation",
+      "neonates experiencing prolonged intensive care unit stay",
+      "neonates in intensive care units"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "edema",
+      "immature skin integrity",
+      "immature skin texture",
+      "immature stratum corneum",
+      "immobilization",
+      "medical devices",
+      "nutritional deficiencies related to prematurity",
+      "pharmaceutical preparations",
+      "prolonged duration of surgical procedure",
+      "significant comorbidity"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6157,6 +8327,14 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "blood coagulation disorders",
+      "immune system diseases",
+      "neoplasms",
+      "pharmaceutical preparations",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "health-promoting behavior",
       "blood coagulation",
@@ -6208,10 +8386,13 @@
       "substance misuse",
       "thoughts of revenge"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals who experienced rape",
+      "individuals with history of suicide attempt"
+    ],
+    "associated_conditions": ["depression", "dissociative identity disorder"],
     "suggested_outcomes": [
       "abuse cessation",
       "abuse protection",
@@ -6253,6 +8434,12 @@
       "unrealistic expectations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing developmental crisis",
+      "individuals with history of domestic violence",
+      "individuals with incarcerated intimate partner"
+    ],
+    "associated_conditions": ["cognitive dysfunction in one partner."],
     "suggested_outcomes": [
       "coping",
       "family functioning/integrity",
@@ -6276,6 +8463,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "coping",
       "family functioning/integrity",
@@ -6299,6 +8488,12 @@
       "substance misuse",
       "unrealistic expectations"
     ],
+    "at_risk_population": [
+      "individuals experiencing developmental crisis",
+      "individuals with history of domestic violence",
+      "individuals with incarcerated intimate partner"
+    ],
+    "associated_conditions": ["cognitive dysfunction in one partner"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6330,9 +8525,17 @@
       "spiritual distress"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "client satisfaction: cultural needs fulfillment"
+    "at_risk_population": [
+      "hospitalized individuals",
+      "individuals experiencing end of life crisis",
+      "individuals experiencing life transition",
+      "individuals experiencing personal crisis",
+      "individuals experiencing spiritual crisis",
+      "individuals with history of religious manipulation",
+      "older adults"
     ],
+    "associated_conditions": ["depression", "impaired health status"],
+    "suggested_outcomes": ["client satisfaction: cultural needs fulfillment"],
     "suggested_interventions": [
       "religious ritual enhancement",
       "culture brokerage",
@@ -6354,9 +8557,9 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "client satisfaction: cultural needs fulfillment"
-    ],
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["client satisfaction: cultural needs fulfillment"],
     "suggested_interventions": [
       "religious ritual enhancement",
       "culture brokerage",
@@ -6383,6 +8586,16 @@
       "pain",
       "spiritual distress"
     ],
+    "at_risk_population": [
+      "hospitalized individuals",
+      "individuals experiencing end of life crisis",
+      "individuals experiencing life transition",
+      "individuals experiencing personal crisis",
+      "individuals experiencing spiritual crisis",
+      "individuals with history of religious manipulation",
+      "older adults"
+    ],
+    "associated_conditions": ["depression", "impaired health status"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6424,6 +8637,17 @@
       "social isolation"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals facing unpredictability of experience",
+      "individuals who move from one environment to another",
+      "individuals with history of loss"
+    ],
+    "associated_conditions": [
+      "depression",
+      "diminished mental competency",
+      "impaired health status",
+      "impaired psychosocial functioning"
+    ],
     "suggested_outcomes": [
       "relocation adaptation",
       "anxiety self-control",
@@ -6464,6 +8688,16 @@
       "situational challenge to self-worth",
       "social isolation"
     ],
+    "at_risk_population": [
+      "individuals facing unpredictability of experience",
+      "individuals who move from one environment to another",
+      "individuals with history of loss"
+    ],
+    "associated_conditions": [
+      "diminished mental competency",
+      "impaired health status",
+      "impaired psychosocial functioning"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -6499,6 +8733,22 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing a new crisis",
+      "individuals experiencing chronic crisis",
+      "individuals exposed to violence",
+      "individuals who are members of an ethnic minority",
+      "individuals whose parents have mental disorders",
+      "individuals with history of exposure to violence",
+      "individuals with large families",
+      "mothers with low educational level",
+      "women"
+    ],
+    "associated_conditions": [
+      "intellectual disability",
+      "psychological disorder"
+    ],
     "suggested_outcomes": [
       "personal resiliency",
       "coping",
@@ -6538,6 +8788,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "personal resiliency",
       "family resiliency",
@@ -6568,6 +8820,22 @@
       "multiple coexisting adverse situations",
       "perceived vulnerability",
       "substance misuse"
+    ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing a new crisis",
+      "individuals experiencing chronic crisis",
+      "individuals exposed to violence",
+      "individuals who are members of an ethnic minority",
+      "individuals whose parents have mental disorders",
+      "individuals with history of exposure to violence",
+      "individuals with large families",
+      "mothers with low educational level",
+      "women"
+    ],
+    "associated_conditions": [
+      "intellectual disability",
+      "psychological disorder"
     ],
     "suggested_outcomes": [
       "personal resiliency",
@@ -6603,6 +8871,12 @@
       "parent-child separation"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals living in nontraditional setting",
+      "individuals undergoing changes in marital status",
+      "parents with child requiring home care for special needs"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "caregiver emotional health",
       "caregiver well-being",
@@ -6677,14 +8951,25 @@
       "unrealistic role expectations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals with developmental level inappropriate for role expectation",
+      "individuals with high demand job role",
+      "individuals with low educational level"
+    ],
+    "associated_conditions": [
+      "depression",
+      "neurological defect",
+      "personality disorders",
+      "physical illness",
+      "psychosis"
+    ],
     "suggested_outcomes": [
       "coping",
       "psychosocial adjustment: life change",
       "role performance"
     ],
-    "suggested_interventions": [
-      "role enhancement"
-    ]
+    "suggested_interventions": ["role enhancement"]
   },
   {
     "diagnosis": "sedentary lifestyle",
@@ -6722,6 +9007,8 @@
       "perceived safety risk"
     ],
     "risk_factors": [],
+    "at_risk_population": ["adolescents", "individuals aged"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "ambulation",
       "activity tolerance",
@@ -6755,6 +9042,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "adherence behavior",
       "health-seeking behavior",
@@ -6790,14 +9079,19 @@
       "weakness"
     ],
     "risk_factors": [],
+    "at_risk_population": ["older adults"],
+    "associated_conditions": [
+      "impaired ability to perceive body part",
+      "impaired ability to perceive spatial relationships",
+      "musculoskeletal diseases",
+      "neuromuscular diseases"
+    ],
     "suggested_outcomes": [
       "self-care: activities of daily living (adls)",
       "self-care: bathing",
       "self-care: hygiene"
     ],
-    "suggested_interventions": [
-      "self-care assistance: bathing/hygiene"
-    ]
+    "suggested_interventions": ["self-care assistance: bathing/hygiene"]
   },
   {
     "diagnosis": "dressing self-care deficit",
@@ -6826,12 +9120,15 @@
       "weakness"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "musculoskeletal impairment",
+      "neuromuscular diseases"
+    ],
     "suggested_outcomes": [
       "self-care: activities of daily living (adls), dressing, hygiene"
     ],
-    "suggested_interventions": [
-      "self-care assistance: dressing/grooming"
-    ]
+    "suggested_interventions": ["self-care assistance: dressing/grooming"]
   },
   {
     "diagnosis": "feeding self-care deficit",
@@ -6862,12 +9159,15 @@
       "weakness"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "musculoskeletal impairment",
+      "neuromuscular diseases"
+    ],
     "suggested_outcomes": [
       "self-care: activities of daily living (adls), eating"
     ],
-    "suggested_interventions": [
-      "self-care assistance: feeding"
-    ]
+    "suggested_interventions": ["self-care assistance: feeding"]
   },
   {
     "diagnosis": "toileting self-care deficit",
@@ -6892,6 +9192,11 @@
       "weakness"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "musculoskeletal impairment",
+      "neuromuscular diseases"
+    ],
     "suggested_outcomes": [
       "self-care: activities of daily living (adls), toileting"
     ],
@@ -6916,14 +9221,14 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "self-esteem",
       "personal well-being",
       "psychosocial adjustment life change"
     ],
-    "suggested_interventions": [
-      "self-esteem enhancement"
-    ]
+    "suggested_interventions": ["self-esteem enhancement"]
   },
   {
     "diagnosis": "chronic low self-esteem",
@@ -6974,12 +9279,24 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "self-esteem"
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing repeated failure",
+      "individuals exposed to traumatic situation",
+      "individuals with difficult developmental transition",
+      "individuals with history of being abandoned",
+      "individuals with history of being abused",
+      "individuals with history of being neglected",
+      "individuals with history of loss"
     ],
-    "suggested_interventions": [
-      "self-esteem enhancement"
-    ]
+    "associated_conditions": [
+      "depression",
+      "functional impairment",
+      "mental disorders",
+      "physical illness"
+    ],
+    "suggested_outcomes": ["self-esteem"],
+    "suggested_interventions": ["self-esteem enhancement"]
   },
   {
     "diagnosis": "situational low self-esteem",
@@ -7021,6 +9338,29 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing a change in living environment",
+      "individuals experiencing alteration in body image",
+      "individuals experiencing alteration in economic status",
+      "individuals experiencing alteration in role function",
+      "individuals experiencing death of a significant other",
+      "individuals experiencing divorce",
+      "individuals experiencing new additions to the family",
+      "individuals experiencing repeated failure",
+      "individuals experiencing unplanned pregnancy",
+      "individuals with difficult developmental transition",
+      "individuals with history of being abandoned",
+      "individuals with history of being abused",
+      "individuals with history of being neglected",
+      "individuals with history of loss",
+      "individuals with history of rejection"
+    ],
+    "associated_conditions": [
+      "depression",
+      "functional impairment",
+      "mental disorders",
+      "physical illness"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -7054,6 +9394,22 @@
       "stressors",
       "values incongruent with cultural norms"
     ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals experiencing repeated failure",
+      "individuals exposed to traumatic situation",
+      "individuals with difficult developmental transition",
+      "individuals with history of being abandoned",
+      "individuals with history of being abused",
+      "individuals with history of being neglected",
+      "individuals with history of loss"
+    ],
+    "associated_conditions": [
+      "depression",
+      "functional impairment",
+      "mental disorders",
+      "physical illness"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -7086,6 +9442,23 @@
       "stressors",
       "unrealistic self-expectations",
       "values incongruent with cultural norms"
+    ],
+    "at_risk_population": [
+      "individuals experiencing a change in living environment",
+      "individuals experiencing alteration in body image",
+      "individuals experiencing alteration in economic status",
+      "individuals experiencing alteration in role function",
+      "individuals experiencing death of a significant other",
+      "individuals experiencing divorce",
+      "individuals experiencing new additions to the family",
+      "individuals experiencing unplanned pregnancy",
+      "individuals with"
+    ],
+    "associated_conditions": [
+      "depression",
+      "functional impairment",
+      "mental disorders",
+      "physical illness"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -7122,6 +9495,31 @@
       "substance misuse",
       "use of manipulation to obtain nurturing interpersonal relations with others"
     ],
+    "at_risk_population": [
+      "adolescents",
+      "battered children",
+      "incarcerated individuals",
+      "individuals experiencing family divorce",
+      "individuals experiencing family substance misuse",
+      "individuals experiencing loss of significant interpersonal relations",
+      "individuals experiencing sexual identity crisis",
+      "individuals living in nontraditional setting",
+      "individuals whose peers self-mutilate",
+      "individuals with family history of self-destructive behavior",
+      "individuals with history of childhood abuse",
+      "individuals with history of childhood illness",
+      "individuals with history of childhood surgery",
+      "individuals with history of self-directed violence",
+      "individuals witnessing violence between parental figures"
+    ],
+    "associated_conditions": [
+      "autism",
+      "borderline personality disorder",
+      "character disorder",
+      "depersonalization",
+      "developmental disabilities",
+      "psychotic disorders"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -7152,6 +9550,31 @@
       "feeling threatened with loss of significant interpersonal relations"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "battered children",
+      "incarcerated individuals",
+      "individuals experiencing family divorce",
+      "individuals experiencing family substance misuse",
+      "individuals experiencing loss of significant interpersonal relations",
+      "individuals experiencing sexual identity crisis",
+      "individuals living in nontraditional setting",
+      "individuals whose peers self-mutilate",
+      "individuals with family history of self-destructive behavior",
+      "individuals with history of childhood abuse",
+      "individuals with history of childhood illness",
+      "individuals with history of childhood surgery",
+      "individuals with history of self-directed violence",
+      "individuals witnessing violence between parental figures"
+    ],
+    "associated_conditions": [
+      "autism",
+      "borderline personality disorder",
+      "character disorder",
+      "depersonalization",
+      "developmental disabilities",
+      "psychotic disorders"
+    ],
     "suggested_outcomes": [
       "self-control",
       "distorted thought self-control",
@@ -7191,6 +9614,16 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "capgras syndrome",
+      "frontal lobe dysfunction",
+      "functional impairment",
+      "learning disability",
+      "malingering",
+      "mental disorders",
+      "psychotic disorders"
+    ],
     "suggested_outcomes": [
       "cognitive function",
       "executive function",
@@ -7233,6 +9666,11 @@
       "value conflict"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals without a significant other"],
+    "associated_conditions": [
+      "altered body function",
+      "altered body structure"
+    ],
     "suggested_outcomes": [
       "abuse recovery: sexual",
       "knowledge: sexual functioning, physical aging",
@@ -7241,10 +9679,7 @@
       "sexual functioning",
       "sexual identity"
     ],
-    "suggested_interventions": [
-      "sexual counseling",
-      "teaching: sexuality"
-    ]
+    "suggested_interventions": ["sexual counseling", "teaching: sexuality"]
   },
   {
     "diagnosis": "ineffective sexuality pattern",
@@ -7269,6 +9704,8 @@
       "insufficient privacy"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals without a significant other"],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "abuse recovery: sexual",
       "body image",
@@ -7315,6 +9752,23 @@
       "nonhemorrhagic fluid losses",
       "smoking",
       "unstable blood pressure"
+    ],
+    "at_risk_population": [
+      "individuals admitted to the emergency care unit",
+      "individuals at extremes of age",
+      "individuals with history of myocardial infarction"
+    ],
+    "associated_conditions": [
+      "artificial respiration",
+      "burns",
+      "chemotherapy",
+      "diabetes mellitus",
+      "embolism",
+      "heart diseases",
+      "hypersensitivity",
+      "immunosuppression",
+      "infections",
+      "lactate levels"
     ],
     "suggested_outcomes": [
       "cardiac pump effectiveness",
@@ -7364,6 +9818,15 @@
       "self-imposed relief posture"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "impaired metabolism",
+      "mental disorders",
+      "neurological disorder",
+      "orthopedic surgery",
+      "prescribed posture",
+      "sarcopenia"
+    ],
     "suggested_outcomes": [
       "activity tolerance",
       "balance",
@@ -7409,6 +9872,33 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals at extremes of age",
+      "individuals in intensive care units",
+      "individuals in long-term care facilities",
+      "individuals in palliative care settings",
+      "individuals receiving home-based care"
+    ],
+    "associated_conditions": [
+      "altered pigmentation",
+      "anemia",
+      "cardiovascular diseases",
+      "decreased level of consciousness",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "hormonal change",
+      "immobilization",
+      "immunodeficiency",
+      "impaired metabolism",
+      "infections",
+      "medical devices",
+      "neoplasms",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "punctures",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [
       "tissue integrity: skin and mucous membranes",
       "wound healing: primary intention, secondary intention"
@@ -7426,6 +9916,33 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals at extremes of age",
+      "individuals in intensive care units",
+      "individuals in long-term care facilities",
+      "individuals in palliative care settings",
+      "individuals receiving home-based care"
+    ],
+    "associated_conditions": [
+      "altered pigmentation",
+      "anemia",
+      "cardiovascular diseases",
+      "decreased level of consciousness",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "diabetes mellitus",
+      "hormonal change",
+      "immobilization",
+      "immunodeficiency",
+      "impaired metabolism",
+      "infections",
+      "medical devices",
+      "neoplasms",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "punctures",
+      "sensation disorders"
+    ],
     "suggested_outcomes": [
       "immobility consequences: physiological",
       "tissue integrity: skin and mucous membranes"
@@ -7474,14 +9991,20 @@
       "sustained inadequate sleep hygiene"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "rest",
-      "sleep",
-      "symptom severity"
+    "at_risk_population": ["individuals with familial sleep paralysis"],
+    "associated_conditions": [
+      "conditions with periodic limb movement",
+      "idiopathic central nervous system hypersomnolence",
+      "narcolepsy",
+      "neurocognitive disorders",
+      "nightmares",
+      "sleep apnea",
+      "sleep-related enuresis",
+      "sleep-related painful erections",
+      "treatment regimen"
     ],
-    "suggested_interventions": [
-      "sleep enhancement"
-    ]
+    "suggested_outcomes": ["rest", "sleep", "symptom severity"],
+    "suggested_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "readiness for enhanced sleep",
@@ -7491,14 +10014,10 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "personal well-being",
-      "rest",
-      "sleep"
-    ],
-    "suggested_interventions": [
-      "sleep enhancement"
-    ]
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["personal well-being", "rest", "sleep"],
+    "suggested_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "disturbed sleep pattern",
@@ -7518,14 +10037,10 @@
       "insufficient privacy"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "personal well-being",
-      "rest",
-      "sleep"
-    ],
-    "suggested_interventions": [
-      "sleep enhancement"
-    ]
+    "at_risk_population": [],
+    "associated_conditions": ["immobilization"],
+    "suggested_outcomes": ["personal well-being", "rest", "sleep"],
+    "suggested_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "impaired social interaction",
@@ -7563,6 +10078,13 @@
       "sociocultural dissonance"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals without a significant other"],
+    "associated_conditions": [
+      "halitosis",
+      "mental diseases",
+      "neurodevelopmental disorders",
+      "therapeutic isolation"
+    ],
     "suggested_outcomes": [
       "child development: middle childhood, adolescence",
       "play participation",
@@ -7570,9 +10092,7 @@
       "social interaction skills",
       "social involvement"
     ],
-    "suggested_interventions": [
-      "socialization enhancement"
-    ]
+    "suggested_interventions": ["socialization enhancement"]
   },
   {
     "diagnosis": "social isolation",
@@ -7615,6 +10135,27 @@
       "values incongruent with cultural norms"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "immigrants",
+      "individuals living alone",
+      "individuals living far from significant others",
+      "individuals moving to unfamiliar locations",
+      "individuals with history of rejection",
+      "individuals experiencing altered social role",
+      "individuals experiencing loss of significant other",
+      "individuals with history of traumatic event",
+      "individuals with ill family member",
+      "individuals with no children",
+      "institutionalized individuals",
+      "older adults",
+      "widowed individuals"
+    ],
+    "associated_conditions": [
+      "altered physical appearance",
+      "chronic disease",
+      "cognitive disorders"
+    ],
     "suggested_outcomes": [
       "loneliness severity",
       "mood equilibrium",
@@ -7625,9 +10166,7 @@
       "social involvement",
       "social support"
     ],
-    "suggested_interventions": [
-      "socialization enhancement"
-    ]
+    "suggested_interventions": ["socialization enhancement"]
   },
   {
     "diagnosis": "chronic sorrow",
@@ -7644,6 +10183,12 @@
       "missed opportunities"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing developmental crisis",
+      "individuals experiencing loss of significant other",
+      "individuals working in caregiver role for prolonged period of time"
+    ],
+    "associated_conditions": ["chronic disability", "chronic disease"],
     "suggested_outcomes": [
       "acceptance: health status",
       "depression level",
@@ -7721,6 +10266,27 @@
       "substance misuse"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals experiencing birth of a child",
+      "individuals experiencing death of a significant other",
+      "individuals experiencing infertility",
+      "individuals experiencing life transition",
+      "individuals experiencing racial conflict",
+      "individuals experiencing unexpected life event",
+      "individuals exposed to death",
+      "individuals exposed to natural disaster",
+      "individuals exposed to traumatic events",
+      "individuals receiving bad news",
+      "individuals receiving terminal care",
+      "individuals with low educational level"
+    ],
+    "associated_conditions": [
+      "chronic disease",
+      "depression",
+      "loss of body part",
+      "loss of function of a body part",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "coping",
       "dignified life closure",
@@ -7760,6 +10326,26 @@
       "stressors",
       "substance misuse"
     ],
+    "at_risk_population": [
+      "individuals experiencing birth of a child",
+      "individuals experiencing death of significant other",
+      "individuals experiencing infertility",
+      "individuals experiencing life transition",
+      "individuals experiencing racial conflict",
+      "individuals experiencing unexpected life event",
+      "individuals exposed to death",
+      "individuals exposed to natural disaster",
+      "individuals exposed to traumatic events",
+      "individuals receiving bad news",
+      "individuals receiving terminal care",
+      "individuals with low educational level"
+    ],
+    "associated_conditions": [
+      "chronic disease, depression",
+      "loss of a body part",
+      "loss of function of a body part",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -7798,6 +10384,8 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "personal health status",
       "coping",
@@ -7839,6 +10427,16 @@
       "self-imposed relief posture"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "circulatory perfusion disorder",
+      "impaired metabolism",
+      "injury to lower extremity",
+      "neurological disorder",
+      "prescribed posture",
+      "sarcopenia",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [
       "activity tolerance",
       "balance",
@@ -7850,9 +10448,7 @@
       "risk control: hypotension",
       "skeletal function"
     ],
-    "suggested_interventions": [
-      "body mechanics promotion"
-    ]
+    "suggested_interventions": ["body mechanics promotion"]
   },
   {
     "diagnosis": "stress overload",
@@ -7872,6 +10468,8 @@
       "stressors"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "anxiety level",
       "caregiver stressors",
@@ -7910,6 +10508,11 @@
       "sudden cessation of an addictive substance"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with history of withdrawal symptoms",
+      "older adults"
+    ],
+    "associated_conditions": ["significant comorbidity"],
     "suggested_outcomes": [
       "anxiety level",
       "comfort status",
@@ -7944,6 +10547,11 @@
       "malnutrition",
       "sudden cessation of an addictive substance"
     ],
+    "at_risk_population": [
+      "individuals with history of withdrawal symptoms",
+      "older adults"
+    ],
+    "associated_conditions": ["significant comorbidity"],
     "suggested_outcomes": [
       "anxiety level",
       "comfort status",
@@ -7991,6 +10599,25 @@
       "unsatisfactory sucking behavior"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "infants born to mothers with substance misuse",
+      "infants delivered using obstetrical forceps",
+      "infants delivered using obstetrical vacuum extraction",
+      "infants experiencing prolonged hospitalization",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "convulsive episodes",
+      "gastroesophageal reflux",
+      "high flow oxygen by nasal cannula",
+      "lacerations during delivery",
+      "low appearance, pulse, grimace, activity, & respiration (apgar) scores",
+      "neurological delay",
+      "neurological impairment",
+      "oral hypersensitivity",
+      "oropharyngeal deformity",
+      "prolonged enteral nutrition"
+    ],
     "suggested_outcomes": [
       "bottle feeding establishment: infant",
       "bottle feeding performance",
@@ -8025,6 +10652,23 @@
       "soft sleep surface",
       "soft, loose objects placed near infant"
     ],
+    "at_risk_population": [
+      "boys",
+      "infants aged 2-4 months",
+      "infants exposed to alcohol in utero",
+      "infants exposed to cold climates",
+      "infants exposed to illicit drug in utero",
+      "infants fed with expressed breast milk",
+      "infants not breastfed exclusively",
+      "infants of african descent",
+      "infants whose mothers smoked during pregnancy",
+      "infants with postnatal exposure to alcohol",
+      "infants with postnatal exposure to illicit drug",
+      "low birth weight infants",
+      "native american infants",
+      "premature infants"
+    ],
+    "associated_conditions": [],
     "suggested_outcomes": [
       "knowledge: infant care",
       "parenting performance",
@@ -8058,6 +10702,13 @@
       "unvented fuel-burning heater",
       "vehicle running in closed garage"
     ],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "altered olfactory function",
+      "face/neck disease",
+      "face/neck injury",
+      "impaired motor functioning"
+    ],
     "suggested_outcomes": [
       "knowledge: infant care",
       "parenting: adolescent physical safety, early/middle childhood physical safety, infant/toddler physical safety",
@@ -8084,6 +10735,34 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "adolescents",
+      "adolescents living in foster care",
+      "economically disadvantaged individuals",
+      "individuals changing a will",
+      "individuals experiencing situational crisis",
+      "individuals facing discrimination",
+      "individuals giving away possessions",
+      "individuals living alone",
+      "individuals obtaining potentially lethal materials",
+      "individuals preparing a will",
+      "individuals who frequently seek care for vague symptomatology",
+      "individuals with disciplinary problems",
+      "individuals with family history of suicide",
+      "individuals with history of suicide attempt",
+      "individuals with history of violence",
+      "individuals with sudden euphoric recovery from major depression",
+      "institutionalized individuals",
+      "men",
+      "native american individuals",
+      "older adults"
+    ],
+    "associated_conditions": [
+      "depression",
+      "mental disorders",
+      "physical illness",
+      "terminal illness"
+    ],
     "suggested_outcomes": [
       "depression level",
       "impulse self-control",
@@ -8132,6 +10811,16 @@
       "smoking"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "anemia",
+      "diabetes mellitus",
+      "extensive surgical procedures",
+      "pharmaceutical preparations",
+      "prolonged duration of perioperative surgical wound infection",
+      "psychological disorder in postoperative period",
+      "surgical wound infection"
+    ],
     "suggested_outcomes": [
       "endurance",
       "infection severity",
@@ -8166,6 +10855,16 @@
       "persistent vomiting",
       "smoking"
     ],
+    "at_risk_population": ["individuals aged"],
+    "associated_conditions": [
+      "anemia",
+      "diabetes mellitus",
+      "extensive surgical procedures",
+      "pharmaceutical preparations",
+      "prolonged duration of perioperative surgical wound infection",
+      "psychological disorder in postoperative period",
+      "surgical wound infection"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -8180,13 +10879,40 @@
       "self-injurious behavior"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with history of enteral nutrition",
+      "older adults",
+      "premature infants"
+    ],
+    "associated_conditions": [
+      "acquired anatomic defects",
+      "brain injuries",
+      "cerebral palsy",
+      "conditions with significant muscle hypotonia",
+      "congenital heart disease",
+      "cranial nerve involvement",
+      "developmental disabilities",
+      "esophageal achalasia",
+      "gastroesophageal reflux disease",
+      "laryngeal diseases",
+      "mechanical obstruction",
+      "nasal defect",
+      "nasopharyngeal cavity defect",
+      "neurological problems",
+      "neuromuscular diseases",
+      "oropharynx abnormality",
+      "pharmaceutical preparations",
+      "prolonged intubation",
+      "respiratory condition",
+      "tracheal defect",
+      "trauma",
+      "upper airway anomaly",
+      "vocal cord dysfunction"
+    ],
     "suggested_outcomes": [
       "swallowing status: esophageal phase, oral phase, pharyngeal phase"
     ],
-    "suggested_interventions": [
-      "aspiration precautions",
-      "swallowing therapy"
-    ]
+    "suggested_interventions": ["aspiration precautions", "swallowing therapy"]
   },
   {
     "diagnosis": "risk for thermal injury",
@@ -8203,14 +10929,22 @@
       "smoking",
       "unsafe environment"
     ],
+    "at_risk_population": [
+      "individuals exposed to environmental temperature extremes"
+    ],
+    "associated_conditions": [
+      "alcoholic intoxication",
+      "drug intoxication",
+      "neuromuscular diseases",
+      "neuropathy",
+      "treatment regimen"
+    ],
     "suggested_outcomes": [
       "safe home environment",
       "parenting: early/middle/adolescent",
       "physical safety"
     ],
-    "suggested_interventions": [
-      "environmental management: safety"
-    ]
+    "suggested_interventions": ["environmental management: safety"]
   },
   {
     "diagnosis": "ineffective thermoregulation",
@@ -8240,10 +10974,25 @@
       "vigorous activity"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
+    "at_risk_population": [
+      "individuals at extremes of weight",
+      "individuals exposed to environmental temperature extremes",
+      "individuals with inadequate supply of subcutaneous fat",
+      "individuals with increased body surface area to weight ratio"
     ],
+    "associated_conditions": [
+      "altered metabolic rate",
+      "brain injury",
+      "condition affecting temperature regulation",
+      "decreased sweat response",
+      "impaired health status",
+      "inefficient nonshivering thermogenesis",
+      "pharmaceutical preparations",
+      "sedation",
+      "sepsis",
+      "trauma"
+    ],
+    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_interventions": [
       "temperature regulation",
       "temperature regulation: inoperative"
@@ -8261,6 +11010,24 @@
       "inappropriate clothing for environmental temperature",
       "increased oxygen demand",
       "vigorous activity"
+    ],
+    "at_risk_population": [
+      "individuals at extremes of weight",
+      "individuals exposed to environmental temperature extremes",
+      "individuals with inadequate supply of subcutaneous fat",
+      "individuals with increased body surface area to weight ratio"
+    ],
+    "associated_conditions": [
+      "altered metabolic rate",
+      "brain injuries",
+      "condition affecting temperature regulation",
+      "decreased sweat response",
+      "impaired health status",
+      "inefficient nonshivering thermogenesis",
+      "pharmaceutical preparations",
+      "sedation",
+      "sepsis",
+      "trauma"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -8281,6 +11048,33 @@
       "obesity",
       "sedentary lifestyle",
       "smoking"
+    ],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals aged"
+    ],
+    "associated_conditions": [
+      "atherosclerosis",
+      "autoimmune diseases",
+      "blood coagulation disorders",
+      "chronic inflammation",
+      "critical illness",
+      "diabetes mellitus",
+      "dyslipidemias",
+      "endovascular procedures",
+      "heart diseases",
+      "hematologic diseases",
+      "high acuity illness",
+      "hormonal therapy",
+      "hyperhomocysteinemia",
+      "infections",
+      "kidney diseases",
+      "medical devices",
+      "metabolic syndrome",
+      "neoplasms",
+      "surgical procedures",
+      "trauma",
+      "vascular diseases"
     ],
     "suggested_outcomes": [
       "tissue perfusion: peripheral",
@@ -8329,14 +11123,26 @@
       "unaddressed trauma"
     ],
     "risk_factors": [],
+    "at_risk_population": [
+      "economically disadvantaged individuals",
+      "individuals in the early postoperative period",
+      "older adults",
+      "pregnant women"
+    ],
+    "associated_conditions": [
+      "brain injuries",
+      "critical illness",
+      "hallucinations",
+      "mental disorders",
+      "neurodegenerative disorders",
+      "pharmaceutical preparations"
+    ],
     "suggested_outcomes": [
       "distorted thought self-control",
       "cognition",
       "cognitive orientation"
     ],
-    "suggested_interventions": [
-      "delusion management"
-    ]
+    "suggested_interventions": ["delusion management"]
   },
   {
     "diagnosis": "impaired tissue integrity",
@@ -8360,6 +11166,36 @@
     ],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "homeless individuals",
+      "individuals at extremes of age",
+      "individuals exposed to environmental temperature extremes",
+      "individuals exposed to high-voltage power supply",
+      "individuals participating in contact sports",
+      "individuals participating in winter sports",
+      "individuals with family history of bone fracture",
+      "individuals with history of bone fracture"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "autism spectrum disorder",
+      "cardiovascular diseases",
+      "chronic neurological conditions",
+      "critical illness",
+      "decreased level of consciousness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "hemodynamic instability",
+      "immobilization",
+      "intellectual disability",
+      "medical devices",
+      "metabolic diseases",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "sensation disorders",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [
       "tissue integrity: skin and mucous membranes",
       "wound healing: primary intention, secondary intention"
@@ -8381,6 +11217,36 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "homeless individuals",
+      "individuals at extremes of age",
+      "individuals exposed to environmental temperature extremes",
+      "individuals exposed to high-voltage power supply",
+      "individuals participating in contact sports",
+      "individuals participating in winter sports",
+      "individuals with family history of bone fracture",
+      "individuals with history of bone fracture"
+    ],
+    "associated_conditions": [
+      "anemia",
+      "autism spectrum disorder",
+      "cardiovascular diseases",
+      "chronic neurological conditions",
+      "critical illness",
+      "decreased level of consciousness",
+      "decreased serum albumin level",
+      "decreased tissue oxygenation",
+      "decreased tissue perfusion",
+      "hemodynamic instability",
+      "immobilization",
+      "intellectual disability",
+      "medical devices",
+      "metabolic diseases",
+      "peripheral neuropathy",
+      "pharmaceutical preparations",
+      "sensation disorders",
+      "surgical procedures"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -8414,15 +11280,20 @@
       "smoking"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "diabetes mellitus",
+      "endovascular procedure",
+      "hypertension",
+      "trauma"
+    ],
     "suggested_outcomes": [
       "circulation status",
       "fluid balance",
       "hydration",
       "tissue perfusion: peripheral"
     ],
-    "suggested_interventions": [
-      "circulatory care: arterial insufficiency"
-    ]
+    "suggested_interventions": ["circulatory care: arterial insufficiency"]
   },
   {
     "diagnosis": "risk for ineffective peripheral tissue perfusion",
@@ -8435,6 +11306,13 @@
       "inadequate knowledge of modifiable factors",
       "sedentary lifestyle",
       "smoking"
+    ],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "diabetes mellitus",
+      "endovascular procedures",
+      "hypertension",
+      "trauma"
     ],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -8466,6 +11344,12 @@
       "physical deconditioning"
     ],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": [
+      "musculoskeletal impairment",
+      "neuromuscular diseases",
+      "vision disorders"
+    ],
     "suggested_outcomes": [
       "balance",
       "body positioning: self-initiated",
@@ -8482,10 +11366,9 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "risk control",
-      "fall prevention behavior"
-    ],
+    "at_risk_population": [],
+    "associated_conditions": [],
+    "suggested_outcomes": ["risk control", "fall prevention behavior"],
     "suggested_interventions": [
       "environmental management: safety",
       "skin surveillance"
@@ -8521,19 +11404,17 @@
       "unilateral visuospatial neglect",
       "uses vertical half of page only when writing"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": ["brain injuries"],
     "suggested_outcomes": [
       "body image",
       "body positioning: self-initiated",
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": [
-      "unilateral neglect management"
-    ]
+    "suggested_interventions": ["unilateral neglect management"]
   },
   {
     "diagnosis": "impaired urinary elimination",
@@ -8559,12 +11440,15 @@
       "involuntary sphincter"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "urinary elimination"
+    "at_risk_population": ["older adults", "women"],
+    "associated_conditions": [
+      "anatomic obstruction",
+      "diabetes mellitus",
+      "sensory motor impairment",
+      "urinary tract infection"
     ],
-    "suggested_interventions": [
-      "urinary elimination management"
-    ]
+    "suggested_outcomes": ["urinary elimination"],
+    "suggested_interventions": ["urinary elimination management"]
   },
   {
     "diagnosis": "urinary retention",
@@ -8590,9 +11474,15 @@
       "weakened bladder muscle"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "urinary elimination"
+    "at_risk_population": ["puerperal women"],
+    "associated_conditions": [
+      "benign prostatic hyperplasia",
+      "diabetes mellitus",
+      "nervous system diseases",
+      "pharmaceutical preparations",
+      "urinary tract obstruction"
     ],
+    "suggested_outcomes": ["urinary elimination"],
     "suggested_interventions": [
       "urinary catheterization",
       "urinary retention care"
@@ -8612,6 +11502,14 @@
       "weakened bladder muscle"
     ],
     "risk_factors": [],
+    "at_risk_population": ["puerperal women"],
+    "associated_conditions": [
+      "benign prostatic hyperplasia",
+      "diabetes mellitus",
+      "nervous system diseases",
+      "pharmaceutical preparations",
+      "urinary tract obstruction"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -8624,6 +11522,8 @@
       "inadequate available insertion site",
       "prolonged period of time catheter is in place"
     ],
+    "at_risk_population": [],
+    "associated_conditions": ["irritating solution", "rapid infusion rate"],
     "suggested_outcomes": [
       "risk control",
       "tissue integrity: skin and mucous membranes"
@@ -8647,10 +11547,10 @@
       "increased metabolic rate",
       "increased partial pressure of carbon dioxide (pco"
     ],
-    "related_factors": [
-      "respiratory muscle fatigue"
-    ],
+    "related_factors": ["respiratory muscle fatigue"],
     "risk_factors": [],
+    "at_risk_population": [],
+    "associated_conditions": ["impaired metabolism"],
     "suggested_outcomes": [
       "neurological status: central motor control",
       "respiratory status: gas exchange, ventilation"
@@ -8675,10 +11575,31 @@
       "malnutrition"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "respiratory status: gas exchange",
-      "ventilation"
+    "at_risk_population": [
+      "individuals with history of failed weaning attempt",
+      "individuals with history of lung diseases",
+      "individuals with history of prolonged dependence on ventilator",
+      "individuals with history of unplanned extubation",
+      "individuals with unfavorable pre-extubation indexes",
+      "older adults"
     ],
+    "associated_conditions": [
+      "acid-base imbalance",
+      "anemia",
+      "cardiogenic shock",
+      "decreased level of consciousness",
+      "diaphragm dysfunction acquired in the intensive care unit",
+      "endocrine system diseases",
+      "heart diseases",
+      "high acuity illness",
+      "hyperthermia",
+      "hypoxemia",
+      "infections",
+      "neuromuscular diseases",
+      "pharmaceutical preparations",
+      "water-electrolyte imbalance"
+    ],
+    "suggested_outcomes": ["respiratory status: gas exchange", "ventilation"],
     "suggested_interventions": [
       "mechanical ventilation management: invasive",
       "mechanical ventilatory weaning"
@@ -8690,6 +11611,11 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [],
+    "at_risk_population": [
+      "individuals with history of unsuccessful weaning attempt",
+      "individuals with history of ventilator dependence >4 days"
+    ],
+    "associated_conditions": ["decreased level of consciousness"],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -8706,6 +11632,21 @@
       "pattern of other-directed violence",
       "pattern of threatening violence",
       "suicidal behavior"
+    ],
+    "at_risk_population": [
+      "individuals with history of childhood abuse",
+      "individuals with history of cruelty to animals",
+      "individuals with history of fire-setting",
+      "individuals with history of motor vehicle offense",
+      "individuals with history of substance misuse",
+      "individuals with history of witnessing family violence"
+    ],
+    "associated_conditions": [
+      "neurological impairment",
+      "pathological intoxication",
+      "perinatal complications",
+      "prenatal complications",
+      "psychotic disorders"
     ],
     "suggested_outcomes": [
       "abuse cessation",
@@ -8749,6 +11690,12 @@
       "suicidal plan",
       "verbal cues of suicidal intent"
     ],
+    "at_risk_population": ["individuals aged 15-19 years", "individuals aged"],
+    "associated_conditions": [
+      "mental health issues",
+      "physical health issues",
+      "psychological disorder"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": [
       "abuse protection support",
@@ -8790,12 +11737,16 @@
       "physical deconditioning"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "ambulation, mobility"
+    "at_risk_population": [],
+    "associated_conditions": [
+      "cerebrovascular disorders",
+      "impaired postural balance",
+      "musculoskeletal impairment",
+      "neuromuscular diseases",
+      "vision disorders"
     ],
-    "suggested_interventions": [
-      "exercise therapy: ambulation"
-    ]
+    "suggested_outcomes": ["ambulation, mobility"],
+    "suggested_interventions": ["exercise therapy: ambulation"]
   },
   {
     "diagnosis": "wandering",
@@ -8828,6 +11779,12 @@
       "separation from familiar environment"
     ],
     "risk_factors": [],
+    "at_risk_population": ["individuals with premorbid behavior"],
+    "associated_conditions": [
+      "cortical atrophy",
+      "psychological disorder",
+      "sedation"
+    ],
     "suggested_outcomes": [
       "safe wandering",
       "safe home environment",
